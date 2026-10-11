@@ -972,44 +972,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "PolicySearchService.Api/1.0.0": {
+      "ApiContracts/1.0.0": {
         "type": "project",
-        "framework": "Unsupported,Version=v0.0",
+        "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/PolicySearchService.Api.dll": {}
+          "bin/placeholder/ApiContracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PolicySearchService.Api.dll": {}
-        }
-      },
-      "PolicyService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/PolicyService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PolicyService.Api.dll": {}
-        }
-      },
-      "PricingService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/PricingService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PricingService.Api.dll": {}
-        }
-      },
-      "ProductService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/ProductService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProductService.Api.dll": {}
+          "bin/placeholder/ApiContracts.dll": {}
         }
       }
     },
@@ -1978,44 +1948,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "PolicySearchService.Api/1.0.0": {
+      "ApiContracts/1.0.0": {
         "type": "project",
-        "framework": "Unsupported,Version=v0.0",
+        "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/PolicySearchService.Api.dll": {}
+          "bin/placeholder/ApiContracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PolicySearchService.Api.dll": {}
-        }
-      },
-      "PolicyService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/PolicyService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PolicyService.Api.dll": {}
-        }
-      },
-      "PricingService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/PricingService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PricingService.Api.dll": {}
-        }
-      },
-      "ProductService.Api/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/ProductService.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProductService.Api.dll": {}
+          "bin/placeholder/ApiContracts.dll": {}
         }
       }
     }
@@ -3710,29 +3650,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "PolicySearchService.Api/1.0.0": {
+    "ApiContracts/1.0.0": {
       "type": "project",
-      "path": "../PolicySearchService.Api/PolicySearchService.Api.csproj",
-      "msbuildProject": "../PolicySearchService.Api/PolicySearchService.Api.csproj"
-    },
-    "PolicyService.Api/1.0.0": {
-      "type": "project",
-      "path": "../PolicyService.Api/PolicyService.Api.csproj",
-      "msbuildProject": "../PolicyService.Api/PolicyService.Api.csproj"
-    },
-    "PricingService.Api/1.0.0": {
-      "type": "project",
-      "path": "../PricingService.Api/PricingService.Api.csproj",
-      "msbuildProject": "../PricingService.Api/PricingService.Api.csproj"
-    },
-    "ProductService.Api/1.0.0": {
-      "type": "project",
-      "path": "../ProductService.Api/ProductService.Api.csproj",
-      "msbuildProject": "../ProductService.Api/ProductService.Api.csproj"
+      "path": "../ApiContracts/ApiContracts.csproj",
+      "msbuildProject": "../ApiContracts/ApiContracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ApiContracts >= 1.0.0",
       "Blazored.SessionStorage >= 2.4.0",
       "Blazorise >= 1.5.3",
       "Blazorise.Bootstrap5 >= 1.5.3",
@@ -3748,11 +3674,7 @@
       "Microsoft.Extensions.Http >= 8.0.0",
       "Microsoft.NET.ILLink.Tasks >= 8.0.25",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 10.0.5",
-      "Newtonsoft.Json >= 13.0.3",
-      "PolicySearchService.Api >= 1.0.0",
-      "PolicyService.Api >= 1.0.0",
-      "PricingService.Api >= 1.0.0",
-      "ProductService.Api >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -3787,17 +3709,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PolicySearchService.Api\\PolicySearchService.Api.csproj": {
-              "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PolicySearchService.Api\\PolicySearchService.Api.csproj"
-            },
-            "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PolicyService.Api\\PolicyService.Api.csproj": {
-              "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PolicyService.Api\\PolicyService.Api.csproj"
-            },
-            "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PricingService.Api\\PricingService.Api.csproj": {
-              "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\PricingService.Api\\PricingService.Api.csproj"
-            },
-            "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\ProductService.Api\\ProductService.Api.csproj": {
-              "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\ProductService.Api\\ProductService.Api.csproj"
+            "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\ApiContracts\\ApiContracts.csproj": {
+              "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\ApiContracts\\ApiContracts.csproj"
             }
           }
         }
@@ -3930,79 +3843,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PolicySearchService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project PolicySearchService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PolicySearchService.Api",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PolicyService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project PolicyService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PolicyService.Api",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PricingService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project PricingService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PricingService.Api",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project ProductService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project ProductService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "ProductService.Api",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PolicySearchService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0) / browser-wasm. Project PolicySearchService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PolicySearchService.Api",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PolicyService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0) / browser-wasm. Project PolicyService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PolicyService.Api",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project PricingService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0) / browser-wasm. Project PricingService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "PricingService.Api",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    },
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project ProductService.Api is not compatible with net8.0 (.NETCoreApp,Version=v8.0) / browser-wasm. Project ProductService.Api supports: net10.0 (.NETCoreApp,Version=v10.0)",
-      "libraryId": "ProductService.Api",
-      "targetGraphs": [
-        "net8.0/browser-wasm"
-      ]
-    }
-  ]
+  }
 }

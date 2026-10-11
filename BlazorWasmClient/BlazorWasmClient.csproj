@@ -50,20 +50,14 @@
 	  <AdditionalFiles Include="Components\Products\ProductsList.razor" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\DashboardService.Api\DashboardService.Api.csproj" />
-	  <ProjectReference Include="..\PolicySearchService.Api\PolicySearchService.Api.csproj" />
-	  <ProjectReference Include="..\PolicyService.Api\PolicyService.Api.csproj" />
-	  <ProjectReference Include="..\PricingService.Api\PricingService.Api.csproj" />
-	  <ProjectReference Include="..\ProductService.Api\ProductService.Api.csproj" />
-	</ItemGroup>
-
 
 	<ItemGroup>
 	  <_ContentIncludedByDefault Remove="Components\TodoApp\TodoItem.razor" />
 	  <_ContentIncludedByDefault Remove="Components\TodoApp\TodoItems.razor" />
 	</ItemGroup>
 
-
+	<ItemGroup>
+	  <ProjectReference Include="..\ApiContracts\ApiContracts.csproj" />
+	</ItemGroup>
 
 </Project>
