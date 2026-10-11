@@ -1,9 +1,10 @@
+
 FROM gradle:6.8.3-jdk8 AS build
 COPY --chown=gradle:gradle . /home/gradle/eureka-server
 WORKDIR /home/gradle/eureka-server
 RUN gradle build --no-daemon
 
-FROM openjdk:8-jre-slim
+FROM eclipse-temurin:8-jre-jammy
 
 EXPOSE 8761
 
