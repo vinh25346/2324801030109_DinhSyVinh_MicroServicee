@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UE9gwQCq9k4=",
+  "dgSpecHash": "j91e/GS574k=",
   "success": true,
-  "projectFilePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroService\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
+  "projectFilePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GIGA\\.nuget\\packages\\cachemanager.core\\2.0.0-beta-1629\\cachemanager.core.2.0.0-beta-1629.nupkg.sha512",
     "C:\\Users\\GIGA\\.nuget\\packages\\cachemanager.microsoft.extensions.configuration\\2.0.0-beta-1629\\cachemanager.microsoft.extensions.configuration.2.0.0-beta-1629.nupkg.sha512",
@@ -78,16 +78,20 @@
     "C:\\Users\\GIGA\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
     "C:\\Users\\GIGA\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
     "C:\\Users\\GIGA\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\GIGA\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\GIGA\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\GIGA\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\GIGA\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\GIGA\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
+    "C:\\Users\\GIGA\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known high severity vulnerability, https://github.com/advisories/GHSA-j8ph-6fxj-g533",
-      "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroService\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
+      "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroService\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
+      "filePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
       "libraryId": "Steeltoe.Discovery.Eureka",
       "targetGraphs": [
         "net8.0"
@@ -97,9 +101,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'Steeltoe.Discovery.Eureka' 3.2.7 has a known low severity vulnerability, https://github.com/advisories/GHSA-vmcp-66r5-3pcp",
-      "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroService\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
+      "projectPath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroService\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
+      "filePath": "E:\\BT_KTvaTKPM\\2324801030109_DinhSyVinh_MicroServicee\\AgentPortalApiGateway\\AgentPortalApiGateway.csproj",
       "libraryId": "Steeltoe.Discovery.Eureka",
       "targetGraphs": [
         "net8.0"

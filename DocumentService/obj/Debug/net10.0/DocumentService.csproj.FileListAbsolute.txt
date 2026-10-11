@@ -1,0 +1,12 @@
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\bin\Debug\net10.0\DocumentService.deps.json
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\bin\Debug\net10.0\DocumentService.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\bin\Debug\net10.0\DocumentService.pdb
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.GeneratedMSBuildEditorConfig.editorconfig
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.AssemblyInfoInputs.cache
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.AssemblyInfo.cs
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.csproj.CoreCompileInputs.cache
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.sourcelink.json
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\refint\DocumentService.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\DocumentService.pdb
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DocumentService\obj\Debug\net10.0\ref\DocumentService.dll
