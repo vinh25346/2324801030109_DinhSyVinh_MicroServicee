@@ -32,3 +32,17 @@ E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\obj\Deb
 E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\obj\Debug\net10.0\PricingService.Api.pdb
 E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\obj\Debug\net10.0\PricingService.Api.genruntimeconfig.cache
 E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\obj\Debug\net10.0\ref\PricingService.Api.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\FluentValidation.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\MediatR.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\MediatR.Contracts.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Newtonsoft.Json.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Common.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Common.Abstractions.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Common.Http.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Connector.Abstractions.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Connector.ConnectorBase.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Discovery.Abstractions.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Discovery.ClientBase.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Extensions.Configuration.Abstractions.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\System.Reflection.MetadataLoadContext.dll
+E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\bin\Debug\net10.0\Steeltoe.Discovery.Eureka.dll

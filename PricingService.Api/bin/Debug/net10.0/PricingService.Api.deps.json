@@ -8,10 +8,41 @@
     ".NETCoreApp,Version=v10.0": {
       "PricingService.Api/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.5"
+          "FluentValidation": "11.9.2",
+          "MediatR": "12.3.0",
+          "Microsoft.AspNetCore.OpenApi": "10.0.5",
+          "Newtonsoft.Json": "13.0.3",
+          "Steeltoe.Discovery.Eureka": "3.2.7"
         },
         "runtime": {
           "PricingService.Api.dll": {}
+        }
+      },
+      "FluentValidation/11.9.2": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.2.0"
+          }
+        }
+      },
+      "MediatR/12.3.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.3.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
         }
       },
       "Microsoft.AspNetCore.OpenApi/10.0.5": {
@@ -32,6 +63,126 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Steeltoe.Common/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Abstractions": "3.2.7",
+          "System.Reflection.MetadataLoadContext": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Common.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Common.Abstractions/3.2.7": {
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Common.Abstractions.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Common.Http/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common": "3.2.7",
+          "Steeltoe.Discovery.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Common.Http.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Connector.Abstractions/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Abstractions": "3.2.7",
+          "Steeltoe.Extensions.Configuration.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/net6.0/Steeltoe.Connector.Abstractions.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Connector.ConnectorBase/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common": "3.2.7",
+          "Steeltoe.Connector.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Connector.ConnectorBase.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Discovery.Abstractions/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Discovery.Abstractions.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Discovery.ClientBase/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Http": "3.2.7",
+          "Steeltoe.Connector.ConnectorBase": "3.2.7",
+          "Steeltoe.Discovery.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/net6.0/Steeltoe.Discovery.ClientBase.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Discovery.Eureka/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Http": "3.2.7",
+          "Steeltoe.Connector.Abstractions": "3.2.7",
+          "Steeltoe.Discovery.ClientBase": "3.2.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Steeltoe.Discovery.Eureka.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "Steeltoe.Extensions.Configuration.Abstractions/3.2.7": {
+        "dependencies": {
+          "Steeltoe.Common.Abstractions": "3.2.7"
+        },
+        "runtime": {
+          "lib/net6.0/Steeltoe.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.2.7.0",
+            "fileVersion": "3.2.7.0"
+          }
+        }
+      },
+      "System.Reflection.MetadataLoadContext/4.6.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Reflection.MetadataLoadContext.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
       }
     }
   },
@@ -40,6 +191,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentValidation/11.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XeHp9LvFvu1fsQ/NvDCymV02GOCB1nz7ZUhfpI3uMhCcHTkV1K5bMkv+Nc/kuNYyAsX5+5bcmUanIEMd5QN+Eg==",
+      "path": "fluentvalidation/11.9.2",
+      "hashPath": "fluentvalidation.11.9.2.nupkg.sha512"
+    },
+    "MediatR/12.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DuXRw/qux2n7pTRPond4WK9XImO+30TZrGPCeOmjYIXDWokpjZQDFRsdZMoP0WqWU7inC4m0D+Zbu5dSc4z6NQ==",
+      "path": "mediatr/12.3.0",
+      "hashPath": "mediatr.12.3.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/10.0.5": {
       "type": "package",
@@ -54,6 +226,83 @@
       "sha512": "sha512-GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
       "path": "microsoft.openapi/2.0.0",
       "hashPath": "microsoft.openapi.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Steeltoe.Common/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BFWIpm7dBH63h7f9pViykXh0cgQuarEdDcgV3mSebcGCl/aWL0qA/XlIf7aKcAmsKJWCCz6tRrJfYN1DxRPBaw==",
+      "path": "steeltoe.common/3.2.7",
+      "hashPath": "steeltoe.common.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Common.Abstractions/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c2M5r7E4/cPev65ik+6yVLzGuetu3MKDJUqGDNvO/VfBT8wiwifJj6+grv9gdtikYEdaBBlAfEY2yiLkD2sNZw==",
+      "path": "steeltoe.common.abstractions/3.2.7",
+      "hashPath": "steeltoe.common.abstractions.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Common.Http/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/bnSQhGp67GTwrdloY4Fola/ADCs9oHOMVuKDE16E4MeqBuLB1GWxooWVqP561juu0NYHYAGavSRxY63Qiq/lg==",
+      "path": "steeltoe.common.http/3.2.7",
+      "hashPath": "steeltoe.common.http.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Connector.Abstractions/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zk3k34a7mHf/CMAaHdTcaMfWuaxFZFZMWD4ceGszbKQQNrwUD3iGVxPVuY/nglOYPqt22Mg6ffM6cDRlB6bA7w==",
+      "path": "steeltoe.connector.abstractions/3.2.7",
+      "hashPath": "steeltoe.connector.abstractions.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Connector.ConnectorBase/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/IRhKAaNnIuMO1u+YIG/af9CmsY6i7SQnC2SPQuSUwiNgekPcXyq8jf+Dl+It8DSWSeQrLT7b6bSxfTpMCaZDg==",
+      "path": "steeltoe.connector.connectorbase/3.2.7",
+      "hashPath": "steeltoe.connector.connectorbase.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Discovery.Abstractions/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZMvtinz9bnl6tx8Y5Nt9WldGyXS8lxYRWHkLwDINc4RBw3coJu0fP10veWFyFuw30Rzzg45okrql9sz44iJbfA==",
+      "path": "steeltoe.discovery.abstractions/3.2.7",
+      "hashPath": "steeltoe.discovery.abstractions.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Discovery.ClientBase/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MfFpXCUSXGqpdooM3WVMeW9br7Fs1yJbVecOJ5Qv8uH7u6UOoqo4Yd0kkI/dHfxTGXE4BQvn1U1uBna2IPN1Cg==",
+      "path": "steeltoe.discovery.clientbase/3.2.7",
+      "hashPath": "steeltoe.discovery.clientbase.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Discovery.Eureka/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MyEw7E6rsK5zshnTQbf3kF+1ZuDFIBlxYDR6vnCz73v/PpGerrypHp59oPS86yxNTRBTndybW5gPQVsHb8+www==",
+      "path": "steeltoe.discovery.eureka/3.2.7",
+      "hashPath": "steeltoe.discovery.eureka.3.2.7.nupkg.sha512"
+    },
+    "Steeltoe.Extensions.Configuration.Abstractions/3.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KBr9B8dUE1QJahEYUzYpPGnf+zIV3VWGfcpt8+k8x92nteZ8NOARWkBhqI4dYNqoAgSsDcm5QuTuFJNxDu43pA==",
+      "path": "steeltoe.extensions.configuration.abstractions/3.2.7",
+      "hashPath": "steeltoe.extensions.configuration.abstractions.3.2.7.nupkg.sha512"
+    },
+    "System.Reflection.MetadataLoadContext/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TezS9fEP9kzL5U6GYHZY6I/tqz6qiHKNgAzuT6JJXJXuP+wWvNLN03gPxBK2uLP0LrLg/QXEAF++lxBNBSYILA==",
+      "path": "system.reflection.metadataloadcontext/4.6.0",
+      "hashPath": "system.reflection.metadataloadcontext.4.6.0.nupkg.sha512"
     }
   }
 }
