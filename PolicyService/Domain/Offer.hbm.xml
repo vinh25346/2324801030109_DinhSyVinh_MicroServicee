@@ -3,7 +3,7 @@
     <typedef name="OfferStatus"
              class="NHibernate.Type.EnumStringType`1[[PolicyService.Domain.OfferStatus, PolicyService]], NHibernate"/>
 
-    <class name="Offer" table="offers">
+    <class name="Offer" table="offers" lazy="false">
         <id name="Id" column="id">
             <generator class="guid.comb"/>
         </id>

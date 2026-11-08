@@ -38,26 +38,29 @@ internal class QuestionAnswerConverter : JsonConverter
     private static QuestionAnswer Create(JObject jsonObject)
     {
         // examine the $type value
-        var typeName = Enum.Parse<QuestionType>(jsonObject["questionType"].ToString());
+        var questionType = jsonObject.GetValue("questionType", StringComparison.OrdinalIgnoreCase);
+        var questionCode = jsonObject.GetValue("questionCode", StringComparison.OrdinalIgnoreCase);
+        var answer = jsonObject.GetValue("answer", StringComparison.OrdinalIgnoreCase);
+        var typeName = Enum.Parse<QuestionType>(questionType!.ToString());
         switch (typeName)
         {
             case QuestionType.Text:
                 return new TextQuestionAnswer
                 {
-                    QuestionCode = jsonObject["questionCode"].ToString(),
-                    Answer = jsonObject["answer"].ToString()
+                    QuestionCode = questionCode!.ToString(),
+                    Answer = answer!.ToString()
                 };
             case QuestionType.Numeric:
                 return new NumericQuestionAnswer
                 {
-                    QuestionCode = jsonObject["questionCode"].ToString(),
-                    Answer = jsonObject["answer"].Value<decimal>()
+                    QuestionCode = questionCode!.ToString(),
+                    Answer = answer!.Value<decimal>()
                 };
             case QuestionType.Choice:
                 return new ChoiceQuestionAnswer
                 {
-                    QuestionCode = jsonObject["questionCode"].ToString(),
-                    Answer = jsonObject["answer"].ToString()
+                    QuestionCode = questionCode!.ToString(),
+                    Answer = answer!.ToString()
                 };
             default:
                 throw new ApplicationException($"Unexpected question type {typeName}");

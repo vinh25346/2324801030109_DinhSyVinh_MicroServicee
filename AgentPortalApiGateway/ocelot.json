@@ -3,7 +3,7 @@
     {
       "DownstreamPathTemplate": "/api/Products/{everything}",
       "DownstreamScheme": "http",
-      "UpstreamPathTemplate": "/Products/{everything}",
+      "UpstreamPathTemplate": "/api/Products/{everything}",
       "ServiceName": "ProductService",
       "UpstreamHttpMethod": [
         "Get"

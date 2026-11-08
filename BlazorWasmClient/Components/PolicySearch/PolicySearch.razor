@@ -75,18 +75,22 @@
     
     protected async Task Search()
     {
-        var searchResult = await PolicySearchClient.SearchPolicies
-        (
-            CriteriaModel.PolicyNumber,
-            CriteriaModel.PolicyHolder
-        );
-
-        if (searchResult.IsError)
+        try
         {
-            
-        }
+            var searchResult = await PolicySearchClient.SearchPolicies
+            (
+                CriteriaModel.PolicyNumber,
+                CriteriaModel.PolicyHolder
+            );
 
-        Policies = searchResult.Result.Policies;
+            Policies = searchResult.IsError || searchResult.Result?.Policies is null
+                ? new List<PolicyDto>()
+                : searchResult.Result.Policies;
+        }
+        catch (HttpRequestException)
+        {
+            Policies = new List<PolicyDto>();
+        }
 
     }
 }

@@ -1,0 +1,185 @@
+Using launch settings from E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DashboardService\Properties\launchSettings.json...
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request POST http://localhost:8761/eureka/apps/DASHBOARDSERVICE
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request POST http://localhost:8761/eureka/apps/DASHBOARDSERVICE
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 30.1672ms - 204
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 38.2381ms - 204
+info: Startup.Steeltoe.Discovery.Eureka.EurekaDiscoveryClient[0]
+      Starting HeartBeat
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.6149ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7048ms - 200
+Hosting environment: Development
+Content root path: E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\DashboardService
+Now listening on: http://localhost:5035
+Application started. Press Ctrl+C to shut down.
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.6825ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.8165ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.3184ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.4029ms - 200
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.4478ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.6263ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.3373ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4302ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.4036ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.8668ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.376ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7127ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.6597ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 5.8605ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5711ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7886ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.3705ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.4751ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.8994ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.0077ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5651ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6406ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0089ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.0939ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7198ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7933ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.6542ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.708ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.6118ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 5.8835ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.0886ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.1643ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.7771ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 5.1291ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.546ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.6654ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/DASHBOARDSERVICE/localhost:DashboardService:5035?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.9372ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.0589ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.546ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6806ms - 200

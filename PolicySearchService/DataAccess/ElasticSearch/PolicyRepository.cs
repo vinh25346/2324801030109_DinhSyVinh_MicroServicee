@@ -37,6 +37,8 @@ public class PolicyRepository : IPolicyRepository
                             )
                         ));
 
-        return result.Documents.ToList();
+        return result.IsValidResponse
+            ? result.Documents.ToList()
+            : new List<Policy>();
     }
 }

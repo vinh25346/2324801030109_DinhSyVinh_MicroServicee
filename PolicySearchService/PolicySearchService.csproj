@@ -12,7 +12,6 @@
         <PackageReference Include="MediatR" Version="12.3.0" />
         <PackageReference Include="Steeltoe.Discovery.ClientBase" Version="3.2.7" />
         <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.2.7" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     </ItemGroup>
 

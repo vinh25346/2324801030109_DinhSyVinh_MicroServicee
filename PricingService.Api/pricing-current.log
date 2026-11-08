@@ -1,0 +1,813 @@
+Using launch settings from E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api\Properties\launchSettings.json...
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request POST http://localhost:8761/eureka/apps/PRICINGSERVICE
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request POST http://localhost:8761/eureka/apps/PRICINGSERVICE
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 37.3028ms - 204
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 45.7645ms - 204
+info: Startup.Steeltoe.Discovery.Eureka.EurekaDiscoveryClient[0]
+      Starting HeartBeat
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.4864ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.5786ms - 200
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5147
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PricingService.Api
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7985ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.9435ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.8745ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.967ms - 200
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 6.3476ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 6.642ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5272ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.619ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.1572ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.26ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.1628ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.2819ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.1949ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.3353ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.1134ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.2599ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.8463ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.9402ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.9742ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.058ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.0123ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.2493ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.1728ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.509ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.3734ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.4645ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.729ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.8156ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.0398ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.1229ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.8845ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.972ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.1346ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 5.8809ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.3731ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4495ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.2287ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.3146ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.3114ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4338ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.4126ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.5539ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.352ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4431ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.3502ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 6.0247ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.8918ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.1874ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.5362ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.6579ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.8922ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.9702ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0972ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1623ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.2993ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.3934ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.5336ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.5939ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.9766ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.1261ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.3308ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.5278ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.9791ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.0878ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.5377ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.5807ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.9772ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.0203ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.3093ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.3804ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.9049ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.9594ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0596ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.0996ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.7235ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.7661ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.5952ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.6663ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.8611ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.9105ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.4556ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.517ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.6662ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.7084ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.2304ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.2996ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5159ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6112ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.7881ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.9022ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.1684ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.2297ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 9.5715ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 9.6445ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.8341ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.9102ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.4158ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.4717ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.0016ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.0671ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.2475ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.3221ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.0028ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.0605ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5865ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6351ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.3738ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4552ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7678ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.8649ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0635ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1051ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.362ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.4002ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0788ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1289ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.236ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 5.3673ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.8688ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.9446ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.3838ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.4674ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.5155ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.5502ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.6556ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.8835ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.5026ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.6009ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.6199ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.6776ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.8452ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.8904ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.9956ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.0682ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.7302ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.916ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7478ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.8029ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.1604ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.2312ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.5708ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.6045ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5793ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6337ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.0048ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.1269ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.0409ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.1473ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.2956ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.3639ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.6793ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.7178ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.001ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1333ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.4544ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.5034ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7034ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7574ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.9677ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.0194ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.3169ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.5165ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.9002ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.2481ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0477ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1017ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.0538ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.1136ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.7745ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.8316ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.6328ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.791ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.9407ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.0253ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.671ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7237ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.2148ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.3594ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.8861ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.9246ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.5286ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.5617ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.5985ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.6495ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.4266ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.669ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 3.439ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 3.5142ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 2.647ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 2.7752ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 1.7645ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 1.8092ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request PUT http://localhost:8761/eureka/apps/PRICINGSERVICE/localhost:PricingService:5147?*
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 5.796ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 6.2636ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+info: System.Net.Http.HttpClient.Eureka.ClientHandler[101]
+      Received HTTP response headers after 4.0327ms - 200
+info: System.Net.Http.HttpClient.Eureka.LogicalHandler[101]
+      End processing HTTP request after 4.4686ms - 200

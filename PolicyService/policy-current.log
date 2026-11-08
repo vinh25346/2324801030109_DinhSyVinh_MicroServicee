@@ -1,0 +1,1836 @@
+Using launch settings from E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PolicyService\Properties\launchSettings.json...
+[15:02:38 INF] User profile is available. Using 'C:\Users\GIGA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[15:02:38 DBG] GetRequestContent generated JSON: {"instance":{"instanceId":"localhost:PolicyService:5050","app":"POLICYSERVICE","appGroupName":null,"ipAddr":"172.27.48.1","sid":"na","port":{"@enabled":"true","$":5050},"securePort":{"@enabled":"false","$":443},"homePageUrl":"http://localhost:5050/","statusPageUrl":"http://localhost:5050/info","healthCheckUrl":"http://localhost:5050/health","secureHealthCheckUrl":null,"vipAddress":"PolicyService","secureVipAddress":"PolicyService","countryId":1,"dataCenterInfo":{"@class":"com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo","name":"MyOwn"},"hostName":"localhost","status":"UP","overriddenstatus":"UNKNOWN","leaseInfo":{"renewalIntervalInSecs":30,"durationInSecs":90,"registrationTimestamp":"0","lastRenewalTimestamp":"0","renewalTimestamp":"0","evictionTimestamp":"0","serviceUpTimestamp":"0"},"isCoordinatingDiscoveryServer":"false","metadata":{"@class":"java.util.Collections$EmptyMap"},"lastUpdatedTimestamp":"1794124958755","lastDirtyTimestamp":"1794124958755","actionType":"ADDED","asgName":null}
+[15:02:38 INF] Start processing HTTP request POST http://localhost:8761/eureka/apps/POLICYSERVICE
+[15:02:38 INF] Sending HTTP request POST http://localhost:8761/eureka/apps/POLICYSERVICE
+[15:02:38 INF] Received HTTP response headers after 31.1801ms - 204
+[15:02:38 INF] End processing HTTP request after 38.0317ms - 204
+[15:02:38 DBG] RegisterAsync http://localhost:8761/eureka/apps/POLICYSERVICE, status: NoContent, retry: 0
+[15:02:38 DBG] Register POLICYSERVICE/localhost:PolicyService:5050 returned: NoContent
+[15:02:38 INF] Starting HeartBeat
+[15:02:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/
+[15:02:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/
+[15:02:38 INF] Received HTTP response headers after 2.9492ms - 200
+[15:02:38 INF] End processing HTTP request after 3.5461ms - 200
+[15:02:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/, status: OK, applications: Applications[Application[Name=PRODUCTSERVICE,Instances=Instance[InstanceId=localhost:ProductService:5030,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5030,IsSecurePortEnabled=False,SecurePort=443,VipAddress=ProductService,SecureVipAddress=ProductService,ActionType=ADDED],]Application[Name=PRICINGSERVICE,Instances=Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED],]Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:02:38 DBG] FetchFullRegistry returned: OK, Applications[Application[Name=PRODUCTSERVICE,Instances=Instance[InstanceId=localhost:ProductService:5030,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5030,IsSecurePortEnabled=False,SecurePort=443,VipAddress=ProductService,SecureVipAddress=ProductService,ActionType=ADDED],]Application[Name=PRICINGSERVICE,Instances=Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED],]Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]]
+[15:02:38 DBG] FetchRegistry succeeded
+Hosting environment: Development
+Content root path: E:\BT_KTvaTKPM\2324801030109_DinhSyVinh_MicroServicee\PolicyService
+Now listening on: http://localhost:5050
+Application started. Press Ctrl+C to shut down.
+[15:02:39 INF] 0 messages about to be pushed.
+[15:02:39 INF] 0 messages about to be pushed.
+[15:02:40 INF] 0 messages about to be pushed.
+[15:02:41 INF] 0 messages about to be pushed.
+[15:02:42 INF] 0 messages about to be pushed.
+[15:02:43 INF] 0 messages about to be pushed.
+[15:02:44 INF] 0 messages about to be pushed.
+[15:02:45 INF] 0 messages about to be pushed.
+[15:02:46 INF] 0 messages about to be pushed.
+[15:02:47 INF] 0 messages about to be pushed.
+[15:02:48 INF] 0 messages about to be pushed.
+[15:02:49 INF] 0 messages about to be pushed.
+[15:02:50 INF] 0 messages about to be pushed.
+[15:02:51 INF] 0 messages about to be pushed.
+[15:02:52 INF] 0 messages about to be pushed.
+[15:02:53 INF] 0 messages about to be pushed.
+[15:02:54 INF] 0 messages about to be pushed.
+[15:02:55 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json 320
+[15:02:55 WRN] Failed to determine the https port for redirect.
+[15:02:55 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:02:55 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:02:55 INF] 0 messages about to be pushed.
+[15:02:55 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:02:56 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:02:56 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 344.1725ms
+[15:02:56 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:02:56 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 390.8009ms
+[15:02:56 INF] 0 messages about to be pushed.
+[15:02:57 INF] 0 messages about to be pushed.
+[15:02:58 INF] 0 messages about to be pushed.
+[15:02:59 INF] 0 messages about to be pushed.
+[15:03:00 INF] 0 messages about to be pushed.
+[15:03:01 INF] 0 messages about to be pushed.
+[15:03:02 INF] 0 messages about to be pushed.
+[15:03:03 INF] 0 messages about to be pushed.
+[15:03:04 INF] 0 messages about to be pushed.
+[15:03:05 INF] 0 messages about to be pushed.
+[15:03:06 INF] 0 messages about to be pushed.
+[15:03:07 INF] 0 messages about to be pushed.
+[15:03:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:03:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:03:08 INF] Received HTTP response headers after 2.7553ms - 200
+[15:03:08 INF] End processing HTTP request after 3.892ms - 200
+[15:03:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:03:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:03:08 INF] 0 messages about to be pushed.
+[15:03:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:03:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:03:08 INF] Received HTTP response headers after 1.4844ms - 200
+[15:03:08 INF] End processing HTTP request after 1.9739ms - 200
+[15:03:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:03:08 DBG] FetchRegistryDelta returned: OK
+[15:03:08 DBG] FetchRegistry succeeded
+[15:03:09 INF] 0 messages about to be pushed.
+[15:03:10 INF] 0 messages about to be pushed.
+[15:03:11 INF] 0 messages about to be pushed.
+[15:03:12 INF] 0 messages about to be pushed.
+[15:03:13 INF] 0 messages about to be pushed.
+[15:03:14 INF] 0 messages about to be pushed.
+[15:03:15 INF] 0 messages about to be pushed.
+[15:03:16 INF] 0 messages about to be pushed.
+[15:03:17 INF] 0 messages about to be pushed.
+[15:03:18 INF] 0 messages about to be pushed.
+[15:03:19 INF] 0 messages about to be pushed.
+[15:03:20 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json; charset=utf-8 324
+[15:03:20 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:20 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:03:20 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:03:20 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:03:20 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 20.3852ms
+[15:03:20 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:20 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 25.3253ms
+[15:03:20 INF] 0 messages about to be pushed.
+[15:03:21 INF] 0 messages about to be pushed.
+[15:03:22 INF] 0 messages about to be pushed.
+[15:03:23 INF] 0 messages about to be pushed.
+[15:03:24 INF] 0 messages about to be pushed.
+[15:03:25 INF] 0 messages about to be pushed.
+[15:03:26 INF] 0 messages about to be pushed.
+[15:03:27 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json; charset=utf-8 324
+[15:03:27 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:27 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:03:27 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:03:27 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:03:27 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 9.5999ms
+[15:03:27 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:27 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 11.9315ms
+[15:03:27 INF] 0 messages about to be pushed.
+[15:03:28 INF] 0 messages about to be pushed.
+[15:03:29 INF] 0 messages about to be pushed.
+[15:03:30 INF] 0 messages about to be pushed.
+[15:03:31 INF] 0 messages about to be pushed.
+[15:03:32 INF] 0 messages about to be pushed.
+[15:03:33 INF] 0 messages about to be pushed.
+[15:03:34 INF] 0 messages about to be pushed.
+[15:03:35 INF] 0 messages about to be pushed.
+[15:03:36 INF] 0 messages about to be pushed.
+[15:03:37 INF] 0 messages about to be pushed.
+[15:03:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:03:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:03:38 INF] Received HTTP response headers after 2.4857ms - 200
+[15:03:38 INF] End processing HTTP request after 3.5652ms - 200
+[15:03:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:03:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:03:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:03:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:03:38 INF] Received HTTP response headers after 2.654ms - 200
+[15:03:38 INF] End processing HTTP request after 4.038ms - 200
+[15:03:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:03:38 DBG] FetchRegistryDelta returned: OK
+[15:03:38 DBG] FetchRegistry succeeded
+[15:03:38 INF] 0 messages about to be pushed.
+[15:03:39 INF] 0 messages about to be pushed.
+[15:03:40 INF] 0 messages about to be pushed.
+[15:03:41 INF] 0 messages about to be pushed.
+[15:03:42 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json; charset=utf-8 324
+[15:03:42 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:42 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:03:42 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:03:42 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:03:42 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 10.0164ms
+[15:03:42 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:03:42 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 11.9148ms
+[15:03:42 INF] 0 messages about to be pushed.
+[15:03:43 INF] 0 messages about to be pushed.
+[15:03:44 INF] 0 messages about to be pushed.
+[15:03:45 INF] 0 messages about to be pushed.
+[15:03:46 INF] 0 messages about to be pushed.
+[15:03:47 INF] 0 messages about to be pushed.
+[15:03:48 INF] 0 messages about to be pushed.
+[15:03:49 INF] 0 messages about to be pushed.
+[15:03:50 INF] 0 messages about to be pushed.
+[15:03:51 INF] 0 messages about to be pushed.
+[15:03:52 INF] 0 messages about to be pushed.
+[15:03:53 INF] 0 messages about to be pushed.
+[15:03:54 INF] 0 messages about to be pushed.
+[15:03:55 INF] 0 messages about to be pushed.
+[15:03:56 INF] 0 messages about to be pushed.
+[15:03:57 INF] 0 messages about to be pushed.
+[15:03:58 INF] 0 messages about to be pushed.
+[15:03:59 INF] 0 messages about to be pushed.
+[15:04:00 INF] 0 messages about to be pushed.
+[15:04:01 INF] 0 messages about to be pushed.
+[15:04:02 INF] 0 messages about to be pushed.
+[15:04:03 INF] 0 messages about to be pushed.
+[15:04:04 INF] 0 messages about to be pushed.
+[15:04:05 INF] 0 messages about to be pushed.
+[15:04:06 INF] 0 messages about to be pushed.
+[15:04:07 INF] 0 messages about to be pushed.
+[15:04:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:04:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:04:08 INF] Received HTTP response headers after 4.9543ms - 200
+[15:04:08 INF] End processing HTTP request after 6.9273ms - 200
+[15:04:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:04:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:04:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:04:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:04:08 INF] Received HTTP response headers after 4.0127ms - 200
+[15:04:08 INF] End processing HTTP request after 6.0725ms - 200
+[15:04:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:04:08 DBG] FetchRegistryDelta returned: OK
+[15:04:08 DBG] FetchRegistry succeeded
+[15:04:08 INF] 0 messages about to be pushed.
+[15:04:09 INF] 0 messages about to be pushed.
+[15:04:10 INF] 0 messages about to be pushed.
+[15:04:11 INF] 0 messages about to be pushed.
+[15:04:12 INF] 0 messages about to be pushed.
+[15:04:13 INF] 0 messages about to be pushed.
+[15:04:14 INF] 0 messages about to be pushed.
+[15:04:15 INF] 0 messages about to be pushed.
+[15:04:16 INF] 0 messages about to be pushed.
+[15:04:17 INF] 0 messages about to be pushed.
+[15:04:18 INF] 0 messages about to be pushed.
+[15:04:19 INF] 0 messages about to be pushed.
+[15:04:20 INF] 0 messages about to be pushed.
+[15:04:21 INF] 0 messages about to be pushed.
+[15:04:22 INF] 0 messages about to be pushed.
+[15:04:23 INF] 0 messages about to be pushed.
+[15:04:24 INF] 0 messages about to be pushed.
+[15:04:25 INF] 0 messages about to be pushed.
+[15:04:26 INF] 0 messages about to be pushed.
+[15:04:27 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Policy - application/json; charset=utf-8 202
+[15:04:27 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:04:27 INF] Route matched with {action = "Post", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreatePolicyCommand) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:04:27 INF] 0 messages about to be pushed.
+[15:04:27 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreatePolicyResult'.
+[15:04:27 INF] Executed action PolicyService.Controllers.PolicyController.Post (PolicyService) in 399.7566ms
+[15:04:27 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:04:27 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Policy - 200 null application/json; charset=utf-8 414.3223ms
+[15:04:27 INF] Request starting HTTP/1.1 GET http://localhost:5050/api/Policy/76607698-b781-40de-b16e-88caffeb92ca - null null
+[15:04:27 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:04:27 INF] Route matched with {action = "Get", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.String) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:04:28 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Queries.GetPolicyDetailsQueryResult'.
+[15:04:28 INF] Executed action PolicyService.Controllers.PolicyController.Get (PolicyService) in 35.5257ms
+[15:04:28 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:04:28 INF] Request finished HTTP/1.1 GET http://localhost:5050/api/Policy/76607698-b781-40de-b16e-88caffeb92ca - 200 null application/json; charset=utf-8 57.1772ms
+[15:04:28 INF] 1 messages about to be pushed.
+[15:04:29 INF] Successfully pushed message
+[15:04:29 INF] 0 messages about to be pushed.
+[15:04:30 INF] 0 messages about to be pushed.
+[15:04:31 INF] 0 messages about to be pushed.
+[15:04:32 INF] 0 messages about to be pushed.
+[15:04:33 INF] 0 messages about to be pushed.
+[15:04:34 INF] 0 messages about to be pushed.
+[15:04:35 INF] 0 messages about to be pushed.
+[15:04:36 INF] 0 messages about to be pushed.
+[15:04:37 INF] 0 messages about to be pushed.
+[15:04:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:04:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:04:38 INF] Received HTTP response headers after 5.2604ms - 200
+[15:04:38 INF] End processing HTTP request after 7.5189ms - 200
+[15:04:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:04:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:04:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:04:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:04:38 INF] Received HTTP response headers after 3.9794ms - 200
+[15:04:38 INF] End processing HTTP request after 5.7833ms - 200
+[15:04:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:04:38 DBG] FetchRegistryDelta returned: OK
+[15:04:38 DBG] FetchRegistry succeeded
+[15:04:38 INF] 0 messages about to be pushed.
+[15:04:39 INF] 0 messages about to be pushed.
+[15:04:40 INF] 0 messages about to be pushed.
+[15:04:41 INF] 0 messages about to be pushed.
+[15:04:42 INF] 0 messages about to be pushed.
+[15:04:43 INF] 0 messages about to be pushed.
+[15:04:44 INF] 0 messages about to be pushed.
+[15:04:45 INF] 0 messages about to be pushed.
+[15:04:46 INF] 0 messages about to be pushed.
+[15:04:47 INF] 0 messages about to be pushed.
+[15:04:48 INF] 0 messages about to be pushed.
+[15:04:49 INF] 0 messages about to be pushed.
+[15:04:50 INF] 0 messages about to be pushed.
+[15:04:51 INF] 0 messages about to be pushed.
+[15:04:52 INF] 0 messages about to be pushed.
+[15:04:53 INF] 0 messages about to be pushed.
+[15:04:54 INF] 0 messages about to be pushed.
+[15:04:55 INF] 0 messages about to be pushed.
+[15:04:56 INF] 0 messages about to be pushed.
+[15:04:57 INF] 0 messages about to be pushed.
+[15:04:58 INF] 0 messages about to be pushed.
+[15:04:59 INF] 0 messages about to be pushed.
+[15:05:00 INF] 0 messages about to be pushed.
+[15:05:01 INF] 0 messages about to be pushed.
+[15:05:02 INF] 0 messages about to be pushed.
+[15:05:03 INF] 0 messages about to be pushed.
+[15:05:04 INF] 0 messages about to be pushed.
+[15:05:05 INF] 0 messages about to be pushed.
+[15:05:06 INF] 0 messages about to be pushed.
+[15:05:07 INF] 0 messages about to be pushed.
+[15:05:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:05:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:05:08 INF] Received HTTP response headers after 2.9358ms - 200
+[15:05:08 INF] End processing HTTP request after 6.7202ms - 200
+[15:05:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:05:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:05:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:05:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:05:08 INF] 0 messages about to be pushed.
+[15:05:08 INF] Received HTTP response headers after 2.2066ms - 200
+[15:05:08 INF] End processing HTTP request after 3.0811ms - 200
+[15:05:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:05:08 DBG] FetchRegistryDelta returned: OK
+[15:05:08 DBG] FetchRegistry succeeded
+[15:05:09 INF] 0 messages about to be pushed.
+[15:05:10 INF] 0 messages about to be pushed.
+[15:05:11 INF] 0 messages about to be pushed.
+[15:05:12 INF] 0 messages about to be pushed.
+[15:05:13 INF] 0 messages about to be pushed.
+[15:05:14 INF] 0 messages about to be pushed.
+[15:05:15 INF] 0 messages about to be pushed.
+[15:05:16 INF] 0 messages about to be pushed.
+[15:05:17 INF] 0 messages about to be pushed.
+[15:05:18 INF] 0 messages about to be pushed.
+[15:05:19 INF] 0 messages about to be pushed.
+[15:05:20 INF] 0 messages about to be pushed.
+[15:05:21 INF] 0 messages about to be pushed.
+[15:05:22 INF] 0 messages about to be pushed.
+[15:05:23 INF] 0 messages about to be pushed.
+[15:05:24 INF] 0 messages about to be pushed.
+[15:05:25 INF] 0 messages about to be pushed.
+[15:05:26 INF] 0 messages about to be pushed.
+[15:05:27 INF] 0 messages about to be pushed.
+[15:05:28 INF] 0 messages about to be pushed.
+[15:05:29 INF] 0 messages about to be pushed.
+[15:05:30 INF] 0 messages about to be pushed.
+[15:05:31 INF] 0 messages about to be pushed.
+[15:05:32 INF] 0 messages about to be pushed.
+[15:05:33 INF] 0 messages about to be pushed.
+[15:05:34 INF] 0 messages about to be pushed.
+[15:05:35 INF] 0 messages about to be pushed.
+[15:05:36 INF] 0 messages about to be pushed.
+[15:05:37 INF] 0 messages about to be pushed.
+[15:05:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:05:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:05:38 INF] Received HTTP response headers after 3.2855ms - 200
+[15:05:38 INF] End processing HTTP request after 4.3464ms - 200
+[15:05:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:05:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:05:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:05:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:05:38 INF] Received HTTP response headers after 1.6599ms - 200
+[15:05:38 INF] End processing HTTP request after 2.4605ms - 200
+[15:05:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:05:38 DBG] FetchRegistryDelta returned: OK
+[15:05:38 DBG] FetchRegistry succeeded
+[15:05:38 INF] 0 messages about to be pushed.
+[15:05:39 INF] 0 messages about to be pushed.
+[15:05:40 INF] 0 messages about to be pushed.
+[15:05:41 INF] 0 messages about to be pushed.
+[15:05:42 INF] 0 messages about to be pushed.
+[15:05:43 INF] 0 messages about to be pushed.
+[15:05:44 INF] 0 messages about to be pushed.
+[15:05:45 INF] 0 messages about to be pushed.
+[15:05:46 INF] 0 messages about to be pushed.
+[15:05:47 INF] 0 messages about to be pushed.
+[15:05:48 INF] 0 messages about to be pushed.
+[15:05:49 INF] 0 messages about to be pushed.
+[15:05:50 INF] 0 messages about to be pushed.
+[15:05:51 INF] 0 messages about to be pushed.
+[15:05:52 INF] 0 messages about to be pushed.
+[15:05:53 INF] 0 messages about to be pushed.
+[15:05:54 INF] 0 messages about to be pushed.
+[15:05:55 INF] 0 messages about to be pushed.
+[15:05:56 INF] 0 messages about to be pushed.
+[15:05:57 INF] 0 messages about to be pushed.
+[15:05:58 INF] 0 messages about to be pushed.
+[15:05:59 INF] 0 messages about to be pushed.
+[15:06:00 INF] 0 messages about to be pushed.
+[15:06:01 INF] 0 messages about to be pushed.
+[15:06:02 INF] 0 messages about to be pushed.
+[15:06:03 INF] 0 messages about to be pushed.
+[15:06:04 INF] 0 messages about to be pushed.
+[15:06:05 INF] 0 messages about to be pushed.
+[15:06:06 INF] 0 messages about to be pushed.
+[15:06:07 INF] 0 messages about to be pushed.
+[15:06:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:06:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:06:08 INF] Received HTTP response headers after 4.8ms - 200
+[15:06:08 INF] End processing HTTP request after 7.1216ms - 200
+[15:06:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:06:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:06:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:06:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:06:08 INF] 0 messages about to be pushed.
+[15:06:08 INF] Received HTTP response headers after 2.2419ms - 200
+[15:06:08 INF] End processing HTTP request after 2.9538ms - 200
+[15:06:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:06:08 DBG] FetchRegistryDelta returned: OK
+[15:06:08 DBG] FetchRegistry succeeded
+[15:06:09 INF] 0 messages about to be pushed.
+[15:06:10 INF] 0 messages about to be pushed.
+[15:06:11 INF] 0 messages about to be pushed.
+[15:06:12 INF] 0 messages about to be pushed.
+[15:06:13 INF] 0 messages about to be pushed.
+[15:06:14 INF] 0 messages about to be pushed.
+[15:06:15 INF] 0 messages about to be pushed.
+[15:06:16 INF] 0 messages about to be pushed.
+[15:06:17 INF] 0 messages about to be pushed.
+[15:06:18 INF] 0 messages about to be pushed.
+[15:06:19 INF] 0 messages about to be pushed.
+[15:06:20 INF] 0 messages about to be pushed.
+[15:06:21 INF] 0 messages about to be pushed.
+[15:06:22 INF] 0 messages about to be pushed.
+[15:06:23 INF] 0 messages about to be pushed.
+[15:06:24 INF] 0 messages about to be pushed.
+[15:06:25 INF] 0 messages about to be pushed.
+[15:06:26 INF] 0 messages about to be pushed.
+[15:06:27 INF] 0 messages about to be pushed.
+[15:06:28 INF] 0 messages about to be pushed.
+[15:06:29 INF] 0 messages about to be pushed.
+[15:06:30 INF] 0 messages about to be pushed.
+[15:06:31 INF] 0 messages about to be pushed.
+[15:06:32 INF] 0 messages about to be pushed.
+[15:06:33 INF] 0 messages about to be pushed.
+[15:06:34 INF] 0 messages about to be pushed.
+[15:06:35 INF] 0 messages about to be pushed.
+[15:06:36 INF] 0 messages about to be pushed.
+[15:06:37 INF] 0 messages about to be pushed.
+[15:06:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:06:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:06:38 INF] Received HTTP response headers after 2.3506ms - 200
+[15:06:38 INF] End processing HTTP request after 6.3442ms - 200
+[15:06:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:06:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:06:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:06:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:06:38 INF] 0 messages about to be pushed.
+[15:06:38 INF] Received HTTP response headers after 6.03ms - 200
+[15:06:38 INF] End processing HTTP request after 7.5355ms - 200
+[15:06:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:06:38 DBG] FetchRegistryDelta returned: OK
+[15:06:38 DBG] FetchRegistry succeeded
+[15:06:39 INF] 0 messages about to be pushed.
+[15:06:40 INF] 0 messages about to be pushed.
+[15:06:41 INF] 0 messages about to be pushed.
+[15:06:42 INF] 0 messages about to be pushed.
+[15:06:43 INF] 0 messages about to be pushed.
+[15:06:44 INF] 0 messages about to be pushed.
+[15:06:45 INF] 0 messages about to be pushed.
+[15:06:46 INF] 0 messages about to be pushed.
+[15:06:47 INF] 0 messages about to be pushed.
+[15:06:48 INF] 0 messages about to be pushed.
+[15:06:49 INF] 0 messages about to be pushed.
+[15:06:50 INF] 0 messages about to be pushed.
+[15:06:51 INF] 0 messages about to be pushed.
+[15:06:52 INF] 0 messages about to be pushed.
+[15:06:53 INF] 0 messages about to be pushed.
+[15:06:54 INF] 0 messages about to be pushed.
+[15:06:55 INF] 0 messages about to be pushed.
+[15:06:56 INF] 0 messages about to be pushed.
+[15:06:57 INF] 0 messages about to be pushed.
+[15:06:58 INF] 0 messages about to be pushed.
+[15:06:59 INF] 0 messages about to be pushed.
+[15:07:00 INF] 0 messages about to be pushed.
+[15:07:01 INF] 0 messages about to be pushed.
+[15:07:02 INF] 0 messages about to be pushed.
+[15:07:03 INF] 0 messages about to be pushed.
+[15:07:04 INF] 0 messages about to be pushed.
+[15:07:05 INF] 0 messages about to be pushed.
+[15:07:06 INF] 0 messages about to be pushed.
+[15:07:07 INF] 0 messages about to be pushed.
+[15:07:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:07:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:07:08 INF] Received HTTP response headers after 2.5247ms - 200
+[15:07:08 INF] End processing HTTP request after 6.6831ms - 200
+[15:07:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:07:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:07:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:07:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:07:08 INF] Received HTTP response headers after 2.7044ms - 200
+[15:07:08 INF] End processing HTTP request after 4.5327ms - 200
+[15:07:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:07:08 DBG] FetchRegistryDelta returned: OK
+[15:07:08 DBG] FetchRegistry succeeded
+[15:07:08 INF] 0 messages about to be pushed.
+[15:07:09 INF] 0 messages about to be pushed.
+[15:07:10 INF] 0 messages about to be pushed.
+[15:07:11 INF] 0 messages about to be pushed.
+[15:07:12 INF] 0 messages about to be pushed.
+[15:07:13 INF] 0 messages about to be pushed.
+[15:07:14 INF] 0 messages about to be pushed.
+[15:07:15 INF] 0 messages about to be pushed.
+[15:07:16 INF] 0 messages about to be pushed.
+[15:07:17 INF] 0 messages about to be pushed.
+[15:07:18 INF] 0 messages about to be pushed.
+[15:07:19 INF] 0 messages about to be pushed.
+[15:07:20 INF] 0 messages about to be pushed.
+[15:07:21 INF] 0 messages about to be pushed.
+[15:07:22 INF] 0 messages about to be pushed.
+[15:07:23 INF] 0 messages about to be pushed.
+[15:07:24 INF] 0 messages about to be pushed.
+[15:07:25 INF] 0 messages about to be pushed.
+[15:07:26 INF] 0 messages about to be pushed.
+[15:07:27 INF] 0 messages about to be pushed.
+[15:07:28 INF] 0 messages about to be pushed.
+[15:07:29 INF] 0 messages about to be pushed.
+[15:07:30 INF] 0 messages about to be pushed.
+[15:07:31 INF] 0 messages about to be pushed.
+[15:07:32 INF] 0 messages about to be pushed.
+[15:07:33 INF] 0 messages about to be pushed.
+[15:07:34 INF] 0 messages about to be pushed.
+[15:07:35 INF] 0 messages about to be pushed.
+[15:07:36 INF] 0 messages about to be pushed.
+[15:07:37 INF] 0 messages about to be pushed.
+[15:07:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:07:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:07:38 INF] Received HTTP response headers after 3.7467ms - 200
+[15:07:38 INF] End processing HTTP request after 4.486ms - 200
+[15:07:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:07:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:07:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:07:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:07:38 INF] Received HTTP response headers after 1.5187ms - 200
+[15:07:38 INF] End processing HTTP request after 2.0921ms - 200
+[15:07:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:07:38 DBG] FetchRegistryDelta returned: OK
+[15:07:38 DBG] FetchRegistry succeeded
+[15:07:38 INF] 0 messages about to be pushed.
+[15:07:39 INF] 0 messages about to be pushed.
+[15:07:40 INF] 0 messages about to be pushed.
+[15:07:41 INF] 0 messages about to be pushed.
+[15:07:42 INF] 0 messages about to be pushed.
+[15:07:43 INF] 0 messages about to be pushed.
+[15:07:44 INF] 0 messages about to be pushed.
+[15:07:45 INF] 0 messages about to be pushed.
+[15:07:46 INF] 0 messages about to be pushed.
+[15:07:47 INF] 0 messages about to be pushed.
+[15:07:48 INF] 0 messages about to be pushed.
+[15:07:49 INF] 0 messages about to be pushed.
+[15:07:50 INF] 0 messages about to be pushed.
+[15:07:51 INF] 0 messages about to be pushed.
+[15:07:52 INF] 0 messages about to be pushed.
+[15:07:53 INF] 0 messages about to be pushed.
+[15:07:54 INF] 0 messages about to be pushed.
+[15:07:55 INF] 0 messages about to be pushed.
+[15:07:56 INF] 0 messages about to be pushed.
+[15:07:57 INF] 0 messages about to be pushed.
+[15:07:58 INF] 0 messages about to be pushed.
+[15:07:59 INF] 0 messages about to be pushed.
+[15:08:00 INF] 0 messages about to be pushed.
+[15:08:01 INF] 0 messages about to be pushed.
+[15:08:02 INF] 0 messages about to be pushed.
+[15:08:03 INF] 0 messages about to be pushed.
+[15:08:04 INF] 0 messages about to be pushed.
+[15:08:05 INF] 0 messages about to be pushed.
+[15:08:06 INF] 0 messages about to be pushed.
+[15:08:07 INF] 0 messages about to be pushed.
+[15:08:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:08:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:08:08 INF] Received HTTP response headers after 2.4991ms - 200
+[15:08:08 INF] End processing HTTP request after 3.4628ms - 200
+[15:08:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:08:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:08:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:08:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:08:08 INF] Received HTTP response headers after 2.7867ms - 200
+[15:08:08 INF] End processing HTTP request after 4.9794ms - 200
+[15:08:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:08:08 DBG] FetchRegistryDelta returned: OK
+[15:08:08 DBG] FetchRegistry succeeded
+[15:08:08 INF] 0 messages about to be pushed.
+[15:08:09 INF] 0 messages about to be pushed.
+[15:08:10 INF] 0 messages about to be pushed.
+[15:08:11 INF] 0 messages about to be pushed.
+[15:08:12 INF] 0 messages about to be pushed.
+[15:08:13 INF] 0 messages about to be pushed.
+[15:08:14 INF] 0 messages about to be pushed.
+[15:08:15 INF] 0 messages about to be pushed.
+[15:08:16 INF] 0 messages about to be pushed.
+[15:08:17 INF] 0 messages about to be pushed.
+[15:08:18 INF] 0 messages about to be pushed.
+[15:08:19 INF] 0 messages about to be pushed.
+[15:08:20 INF] 0 messages about to be pushed.
+[15:08:21 INF] 0 messages about to be pushed.
+[15:08:22 INF] 0 messages about to be pushed.
+[15:08:23 INF] 0 messages about to be pushed.
+[15:08:24 INF] 0 messages about to be pushed.
+[15:08:25 INF] 0 messages about to be pushed.
+[15:08:26 INF] 0 messages about to be pushed.
+[15:08:27 INF] 0 messages about to be pushed.
+[15:08:28 INF] 0 messages about to be pushed.
+[15:08:29 INF] 0 messages about to be pushed.
+[15:08:30 INF] 0 messages about to be pushed.
+[15:08:31 INF] 0 messages about to be pushed.
+[15:08:32 INF] 0 messages about to be pushed.
+[15:08:33 INF] 0 messages about to be pushed.
+[15:08:34 INF] 0 messages about to be pushed.
+[15:08:35 INF] 0 messages about to be pushed.
+[15:08:36 INF] 0 messages about to be pushed.
+[15:08:37 INF] 0 messages about to be pushed.
+[15:08:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:08:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:08:38 INF] Received HTTP response headers after 3.3489ms - 200
+[15:08:38 INF] End processing HTTP request after 4.3305ms - 200
+[15:08:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:08:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:08:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:08:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:08:38 INF] Received HTTP response headers after 2.0188ms - 200
+[15:08:38 INF] End processing HTTP request after 3.111ms - 200
+[15:08:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSERVICE,Instances=Instance[InstanceId=localhost:PolicyService:5050,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5050,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicyService,SecureVipAddress=PolicyService,ActionType=ADDED],]], retry: 0
+[15:08:38 DBG] FetchRegistryDelta returned: OK
+[15:08:38 DBG] FetchRegistry succeeded
+[15:08:38 INF] 0 messages about to be pushed.
+[15:08:39 INF] 0 messages about to be pushed.
+[15:08:40 INF] 0 messages about to be pushed.
+[15:08:41 INF] 0 messages about to be pushed.
+[15:08:42 INF] 0 messages about to be pushed.
+[15:08:43 INF] 0 messages about to be pushed.
+[15:08:44 INF] 0 messages about to be pushed.
+[15:08:45 INF] 0 messages about to be pushed.
+[15:08:46 INF] 0 messages about to be pushed.
+[15:08:47 INF] 0 messages about to be pushed.
+[15:08:48 INF] 0 messages about to be pushed.
+[15:08:49 INF] 0 messages about to be pushed.
+[15:08:50 INF] 0 messages about to be pushed.
+[15:08:51 INF] 0 messages about to be pushed.
+[15:08:52 INF] 0 messages about to be pushed.
+[15:08:53 INF] 0 messages about to be pushed.
+[15:08:54 INF] 0 messages about to be pushed.
+[15:08:55 INF] 0 messages about to be pushed.
+[15:08:56 INF] 0 messages about to be pushed.
+[15:08:57 INF] 0 messages about to be pushed.
+[15:08:58 INF] 0 messages about to be pushed.
+[15:08:59 INF] 0 messages about to be pushed.
+[15:09:00 INF] 0 messages about to be pushed.
+[15:09:01 INF] 0 messages about to be pushed.
+[15:09:02 INF] 0 messages about to be pushed.
+[15:09:03 INF] 0 messages about to be pushed.
+[15:09:04 INF] 0 messages about to be pushed.
+[15:09:05 INF] 0 messages about to be pushed.
+[15:09:06 INF] 0 messages about to be pushed.
+[15:09:07 INF] 0 messages about to be pushed.
+[15:09:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:09:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:09:08 INF] Received HTTP response headers after 3.4308ms - 200
+[15:09:08 INF] End processing HTTP request after 4.5057ms - 200
+[15:09:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:09:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:09:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:09:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:09:08 INF] Received HTTP response headers after 2.4571ms - 200
+[15:09:08 INF] End processing HTTP request after 3.2963ms - 200
+[15:09:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[], retry: 0
+[15:09:08 DBG] FetchRegistryDelta returned: OK
+[15:09:08 DBG] FetchRegistry succeeded
+[15:09:08 INF] 0 messages about to be pushed.
+[15:09:09 INF] 0 messages about to be pushed.
+[15:09:10 INF] 0 messages about to be pushed.
+[15:09:11 INF] 0 messages about to be pushed.
+[15:09:12 INF] 0 messages about to be pushed.
+[15:09:13 INF] 0 messages about to be pushed.
+[15:09:14 INF] 0 messages about to be pushed.
+[15:09:15 INF] 0 messages about to be pushed.
+[15:09:16 INF] 0 messages about to be pushed.
+[15:09:17 INF] 0 messages about to be pushed.
+[15:09:18 INF] 0 messages about to be pushed.
+[15:09:19 INF] 0 messages about to be pushed.
+[15:09:20 INF] 0 messages about to be pushed.
+[15:09:21 INF] 0 messages about to be pushed.
+[15:09:22 INF] 0 messages about to be pushed.
+[15:09:23 INF] 0 messages about to be pushed.
+[15:09:24 INF] 0 messages about to be pushed.
+[15:09:25 INF] 0 messages about to be pushed.
+[15:09:26 INF] 0 messages about to be pushed.
+[15:09:27 INF] 0 messages about to be pushed.
+[15:09:28 INF] 0 messages about to be pushed.
+[15:09:29 INF] 0 messages about to be pushed.
+[15:09:30 INF] 0 messages about to be pushed.
+[15:09:31 INF] 0 messages about to be pushed.
+[15:09:32 INF] 0 messages about to be pushed.
+[15:09:33 INF] 0 messages about to be pushed.
+[15:09:34 INF] 0 messages about to be pushed.
+[15:09:35 INF] 0 messages about to be pushed.
+[15:09:36 INF] 0 messages about to be pushed.
+[15:09:37 INF] 0 messages about to be pushed.
+[15:09:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:09:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:09:38 INF] Received HTTP response headers after 3.8345ms - 200
+[15:09:38 INF] End processing HTTP request after 5.7815ms - 200
+[15:09:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:09:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:09:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:09:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:09:38 INF] Received HTTP response headers after 2.045ms - 200
+[15:09:38 INF] End processing HTTP request after 3.4833ms - 200
+[15:09:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[], retry: 0
+[15:09:38 DBG] FetchRegistryDelta returned: OK
+[15:09:38 DBG] FetchRegistry succeeded
+[15:09:38 INF] 0 messages about to be pushed.
+[15:09:39 INF] 0 messages about to be pushed.
+[15:09:40 INF] 0 messages about to be pushed.
+[15:09:41 INF] 0 messages about to be pushed.
+[15:09:42 INF] 0 messages about to be pushed.
+[15:09:43 INF] 0 messages about to be pushed.
+[15:09:44 INF] 0 messages about to be pushed.
+[15:09:45 INF] 0 messages about to be pushed.
+[15:09:46 INF] 0 messages about to be pushed.
+[15:09:47 INF] 0 messages about to be pushed.
+[15:09:48 INF] 0 messages about to be pushed.
+[15:09:49 INF] 0 messages about to be pushed.
+[15:09:50 INF] 0 messages about to be pushed.
+[15:09:51 INF] 0 messages about to be pushed.
+[15:09:52 INF] 0 messages about to be pushed.
+[15:09:53 INF] 0 messages about to be pushed.
+[15:09:54 INF] 0 messages about to be pushed.
+[15:09:55 INF] 0 messages about to be pushed.
+[15:09:56 INF] 0 messages about to be pushed.
+[15:09:57 INF] 0 messages about to be pushed.
+[15:09:58 INF] 0 messages about to be pushed.
+[15:09:59 INF] 0 messages about to be pushed.
+[15:10:00 INF] 0 messages about to be pushed.
+[15:10:01 INF] 0 messages about to be pushed.
+[15:10:02 INF] 0 messages about to be pushed.
+[15:10:03 INF] 0 messages about to be pushed.
+[15:10:04 INF] 0 messages about to be pushed.
+[15:10:05 INF] 0 messages about to be pushed.
+[15:10:06 INF] 0 messages about to be pushed.
+[15:10:07 INF] 0 messages about to be pushed.
+[15:10:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:10:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:10:08 INF] Received HTTP response headers after 2.5556ms - 200
+[15:10:08 INF] End processing HTTP request after 6.0874ms - 200
+[15:10:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:10:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:10:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:10:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:10:08 INF] Received HTTP response headers after 1.787ms - 200
+[15:10:08 INF] End processing HTTP request after 2.6055ms - 200
+[15:10:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:10:08 DBG] FetchRegistryDelta returned: OK
+[15:10:08 DBG] FetchRegistry succeeded
+[15:10:08 INF] 0 messages about to be pushed.
+[15:10:09 INF] 0 messages about to be pushed.
+[15:10:10 INF] 0 messages about to be pushed.
+[15:10:11 INF] 0 messages about to be pushed.
+[15:10:12 INF] 0 messages about to be pushed.
+[15:10:13 INF] 0 messages about to be pushed.
+[15:10:14 INF] 0 messages about to be pushed.
+[15:10:15 INF] 0 messages about to be pushed.
+[15:10:16 INF] 0 messages about to be pushed.
+[15:10:17 INF] 0 messages about to be pushed.
+[15:10:18 INF] 0 messages about to be pushed.
+[15:10:19 INF] 0 messages about to be pushed.
+[15:10:20 INF] 0 messages about to be pushed.
+[15:10:21 INF] 0 messages about to be pushed.
+[15:10:22 INF] 0 messages about to be pushed.
+[15:10:23 INF] 0 messages about to be pushed.
+[15:10:24 INF] 0 messages about to be pushed.
+[15:10:25 INF] 0 messages about to be pushed.
+[15:10:26 INF] 0 messages about to be pushed.
+[15:10:27 INF] 0 messages about to be pushed.
+[15:10:28 INF] 0 messages about to be pushed.
+[15:10:29 INF] 0 messages about to be pushed.
+[15:10:30 INF] 0 messages about to be pushed.
+[15:10:31 INF] 0 messages about to be pushed.
+[15:10:32 INF] 0 messages about to be pushed.
+[15:10:33 INF] 0 messages about to be pushed.
+[15:10:34 INF] 0 messages about to be pushed.
+[15:10:35 INF] 0 messages about to be pushed.
+[15:10:36 INF] 0 messages about to be pushed.
+[15:10:37 INF] 0 messages about to be pushed.
+[15:10:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:10:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:10:38 INF] Received HTTP response headers after 3.7053ms - 200
+[15:10:38 INF] End processing HTTP request after 5.0216ms - 200
+[15:10:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:10:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:10:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:10:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:10:38 INF] Received HTTP response headers after 1.9765ms - 200
+[15:10:38 INF] End processing HTTP request after 3.3476ms - 200
+[15:10:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:10:38 DBG] FetchRegistryDelta returned: OK
+[15:10:38 DBG] FetchRegistry succeeded
+[15:10:38 INF] 0 messages about to be pushed.
+[15:10:39 INF] 0 messages about to be pushed.
+[15:10:40 INF] 0 messages about to be pushed.
+[15:10:41 INF] 0 messages about to be pushed.
+[15:10:42 INF] 0 messages about to be pushed.
+[15:10:43 INF] 0 messages about to be pushed.
+[15:10:44 INF] 0 messages about to be pushed.
+[15:10:45 INF] 0 messages about to be pushed.
+[15:10:46 INF] 0 messages about to be pushed.
+[15:10:47 INF] 0 messages about to be pushed.
+[15:10:48 INF] 0 messages about to be pushed.
+[15:10:49 INF] 0 messages about to be pushed.
+[15:10:50 INF] 0 messages about to be pushed.
+[15:10:51 INF] 0 messages about to be pushed.
+[15:10:52 INF] 0 messages about to be pushed.
+[15:10:53 INF] 0 messages about to be pushed.
+[15:10:54 INF] 0 messages about to be pushed.
+[15:10:55 INF] 0 messages about to be pushed.
+[15:10:56 INF] 0 messages about to be pushed.
+[15:10:57 INF] 0 messages about to be pushed.
+[15:10:58 INF] 0 messages about to be pushed.
+[15:10:59 INF] 0 messages about to be pushed.
+[15:11:00 INF] 0 messages about to be pushed.
+[15:11:01 INF] 0 messages about to be pushed.
+[15:11:02 INF] 0 messages about to be pushed.
+[15:11:03 INF] 0 messages about to be pushed.
+[15:11:04 INF] 0 messages about to be pushed.
+[15:11:05 INF] 0 messages about to be pushed.
+[15:11:06 INF] 0 messages about to be pushed.
+[15:11:07 INF] 0 messages about to be pushed.
+[15:11:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:11:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:11:08 INF] Received HTTP response headers after 1.9922ms - 200
+[15:11:08 INF] End processing HTTP request after 2.7062ms - 200
+[15:11:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:11:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:11:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:11:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:11:08 INF] 0 messages about to be pushed.
+[15:11:08 INF] Received HTTP response headers after 4.033ms - 200
+[15:11:08 INF] End processing HTTP request after 4.6614ms - 200
+[15:11:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:11:08 DBG] FetchRegistryDelta returned: OK
+[15:11:08 DBG] FetchRegistry succeeded
+[15:11:09 INF] 0 messages about to be pushed.
+[15:11:10 INF] 0 messages about to be pushed.
+[15:11:11 INF] 0 messages about to be pushed.
+[15:11:12 INF] 0 messages about to be pushed.
+[15:11:13 INF] 0 messages about to be pushed.
+[15:11:14 INF] 0 messages about to be pushed.
+[15:11:15 INF] 0 messages about to be pushed.
+[15:11:16 INF] 0 messages about to be pushed.
+[15:11:17 INF] 0 messages about to be pushed.
+[15:11:18 INF] 0 messages about to be pushed.
+[15:11:19 INF] 0 messages about to be pushed.
+[15:11:20 INF] 0 messages about to be pushed.
+[15:11:21 INF] 0 messages about to be pushed.
+[15:11:22 INF] 0 messages about to be pushed.
+[15:11:23 INF] 0 messages about to be pushed.
+[15:11:24 INF] 0 messages about to be pushed.
+[15:11:25 INF] 0 messages about to be pushed.
+[15:11:26 INF] 0 messages about to be pushed.
+[15:11:27 INF] 0 messages about to be pushed.
+[15:11:28 INF] 0 messages about to be pushed.
+[15:11:29 INF] 0 messages about to be pushed.
+[15:11:30 INF] 0 messages about to be pushed.
+[15:11:31 INF] 0 messages about to be pushed.
+[15:11:32 INF] 0 messages about to be pushed.
+[15:11:33 INF] 0 messages about to be pushed.
+[15:11:34 INF] 0 messages about to be pushed.
+[15:11:35 INF] 0 messages about to be pushed.
+[15:11:36 INF] 0 messages about to be pushed.
+[15:11:37 INF] 0 messages about to be pushed.
+[15:11:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:11:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:11:38 INF] Received HTTP response headers after 4.0942ms - 200
+[15:11:38 INF] End processing HTTP request after 6.3016ms - 200
+[15:11:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:11:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:11:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:11:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:11:38 INF] Received HTTP response headers after 3.257ms - 200
+[15:11:38 INF] End processing HTTP request after 4.4753ms - 200
+[15:11:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:11:38 DBG] FetchRegistryDelta returned: OK
+[15:11:38 DBG] FetchRegistry succeeded
+[15:11:38 INF] 0 messages about to be pushed.
+[15:11:39 INF] 0 messages about to be pushed.
+[15:11:40 INF] 0 messages about to be pushed.
+[15:11:41 INF] 0 messages about to be pushed.
+[15:11:42 INF] 0 messages about to be pushed.
+[15:11:43 INF] 0 messages about to be pushed.
+[15:11:44 INF] 0 messages about to be pushed.
+[15:11:45 INF] 0 messages about to be pushed.
+[15:11:46 INF] 0 messages about to be pushed.
+[15:11:47 INF] 0 messages about to be pushed.
+[15:11:48 INF] 0 messages about to be pushed.
+[15:11:49 INF] 0 messages about to be pushed.
+[15:11:50 INF] 0 messages about to be pushed.
+[15:11:51 INF] 0 messages about to be pushed.
+[15:11:52 INF] 0 messages about to be pushed.
+[15:11:53 INF] 0 messages about to be pushed.
+[15:11:54 INF] 0 messages about to be pushed.
+[15:11:55 INF] 0 messages about to be pushed.
+[15:11:56 INF] 0 messages about to be pushed.
+[15:11:57 INF] 0 messages about to be pushed.
+[15:11:58 INF] 0 messages about to be pushed.
+[15:11:59 INF] 0 messages about to be pushed.
+[15:12:00 INF] 0 messages about to be pushed.
+[15:12:01 INF] 0 messages about to be pushed.
+[15:12:02 INF] 0 messages about to be pushed.
+[15:12:03 INF] 0 messages about to be pushed.
+[15:12:04 INF] 0 messages about to be pushed.
+[15:12:05 INF] 0 messages about to be pushed.
+[15:12:06 INF] 0 messages about to be pushed.
+[15:12:07 INF] 0 messages about to be pushed.
+[15:12:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:12:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:12:08 INF] Received HTTP response headers after 4.9153ms - 200
+[15:12:08 INF] End processing HTTP request after 6.8072ms - 200
+[15:12:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:12:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:12:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:12:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:12:08 INF] Received HTTP response headers after 1.7257ms - 200
+[15:12:08 INF] End processing HTTP request after 2.5169ms - 200
+[15:12:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:12:08 DBG] FetchRegistryDelta returned: OK
+[15:12:08 DBG] FetchRegistry succeeded
+[15:12:08 INF] 0 messages about to be pushed.
+[15:12:09 INF] 0 messages about to be pushed.
+[15:12:10 INF] 0 messages about to be pushed.
+[15:12:11 INF] 0 messages about to be pushed.
+[15:12:12 INF] 0 messages about to be pushed.
+[15:12:13 INF] 0 messages about to be pushed.
+[15:12:14 INF] 0 messages about to be pushed.
+[15:12:15 INF] 0 messages about to be pushed.
+[15:12:16 INF] 0 messages about to be pushed.
+[15:12:17 INF] 0 messages about to be pushed.
+[15:12:18 INF] 0 messages about to be pushed.
+[15:12:19 INF] 0 messages about to be pushed.
+[15:12:20 INF] 0 messages about to be pushed.
+[15:12:21 INF] 0 messages about to be pushed.
+[15:12:22 INF] 0 messages about to be pushed.
+[15:12:23 INF] 0 messages about to be pushed.
+[15:12:24 INF] 0 messages about to be pushed.
+[15:12:25 INF] 0 messages about to be pushed.
+[15:12:26 INF] 0 messages about to be pushed.
+[15:12:27 INF] 0 messages about to be pushed.
+[15:12:28 INF] 0 messages about to be pushed.
+[15:12:29 INF] 0 messages about to be pushed.
+[15:12:30 INF] 0 messages about to be pushed.
+[15:12:31 INF] 0 messages about to be pushed.
+[15:12:32 INF] 0 messages about to be pushed.
+[15:12:33 INF] 0 messages about to be pushed.
+[15:12:34 INF] 0 messages about to be pushed.
+[15:12:35 INF] 0 messages about to be pushed.
+[15:12:36 INF] 0 messages about to be pushed.
+[15:12:37 INF] 0 messages about to be pushed.
+[15:12:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:12:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:12:38 INF] Received HTTP response headers after 3.0254ms - 200
+[15:12:38 INF] End processing HTTP request after 3.9083ms - 200
+[15:12:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:12:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:12:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:12:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:12:38 INF] Received HTTP response headers after 1.6385ms - 200
+[15:12:38 INF] End processing HTTP request after 2.5927ms - 200
+[15:12:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:12:38 DBG] FetchRegistryDelta returned: OK
+[15:12:38 DBG] FetchRegistry succeeded
+[15:12:38 INF] 0 messages about to be pushed.
+[15:12:39 INF] 0 messages about to be pushed.
+[15:12:40 INF] 0 messages about to be pushed.
+[15:12:41 INF] 0 messages about to be pushed.
+[15:12:42 INF] 0 messages about to be pushed.
+[15:12:43 INF] 0 messages about to be pushed.
+[15:12:44 INF] 0 messages about to be pushed.
+[15:12:45 INF] 0 messages about to be pushed.
+[15:12:46 INF] 0 messages about to be pushed.
+[15:12:47 INF] 0 messages about to be pushed.
+[15:12:48 INF] 0 messages about to be pushed.
+[15:12:49 INF] 0 messages about to be pushed.
+[15:12:50 INF] 0 messages about to be pushed.
+[15:12:51 INF] 0 messages about to be pushed.
+[15:12:52 INF] 0 messages about to be pushed.
+[15:12:53 INF] 0 messages about to be pushed.
+[15:12:54 INF] 0 messages about to be pushed.
+[15:12:55 INF] 0 messages about to be pushed.
+[15:12:56 INF] 0 messages about to be pushed.
+[15:12:57 INF] 0 messages about to be pushed.
+[15:12:58 INF] 0 messages about to be pushed.
+[15:12:59 INF] 0 messages about to be pushed.
+[15:13:00 INF] 0 messages about to be pushed.
+[15:13:01 INF] 0 messages about to be pushed.
+[15:13:02 INF] 0 messages about to be pushed.
+[15:13:03 INF] 0 messages about to be pushed.
+[15:13:04 INF] 0 messages about to be pushed.
+[15:13:05 INF] 0 messages about to be pushed.
+[15:13:06 INF] 0 messages about to be pushed.
+[15:13:07 INF] 0 messages about to be pushed.
+[15:13:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:13:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:13:08 INF] Received HTTP response headers after 3.9883ms - 200
+[15:13:08 INF] End processing HTTP request after 6.1634ms - 200
+[15:13:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:13:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:13:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:13:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:13:08 INF] Received HTTP response headers after 3.2768ms - 200
+[15:13:08 INF] End processing HTTP request after 4.7501ms - 200
+[15:13:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:13:08 DBG] FetchRegistryDelta returned: OK
+[15:13:08 DBG] FetchRegistry succeeded
+[15:13:08 INF] 0 messages about to be pushed.
+[15:13:09 INF] 0 messages about to be pushed.
+[15:13:10 INF] 0 messages about to be pushed.
+[15:13:11 INF] 0 messages about to be pushed.
+[15:13:12 INF] 0 messages about to be pushed.
+[15:13:13 INF] 0 messages about to be pushed.
+[15:13:14 INF] 0 messages about to be pushed.
+[15:13:15 INF] 0 messages about to be pushed.
+[15:13:16 INF] 0 messages about to be pushed.
+[15:13:17 INF] 0 messages about to be pushed.
+[15:13:18 INF] 0 messages about to be pushed.
+[15:13:19 INF] 0 messages about to be pushed.
+[15:13:20 INF] 0 messages about to be pushed.
+[15:13:21 INF] 0 messages about to be pushed.
+[15:13:22 INF] 0 messages about to be pushed.
+[15:13:23 INF] 0 messages about to be pushed.
+[15:13:24 INF] 0 messages about to be pushed.
+[15:13:25 INF] 0 messages about to be pushed.
+[15:13:26 INF] 0 messages about to be pushed.
+[15:13:27 INF] 0 messages about to be pushed.
+[15:13:28 INF] 0 messages about to be pushed.
+[15:13:29 INF] 0 messages about to be pushed.
+[15:13:30 INF] 0 messages about to be pushed.
+[15:13:31 INF] 0 messages about to be pushed.
+[15:13:32 INF] 0 messages about to be pushed.
+[15:13:33 INF] 0 messages about to be pushed.
+[15:13:34 INF] 0 messages about to be pushed.
+[15:13:35 INF] 0 messages about to be pushed.
+[15:13:36 INF] 0 messages about to be pushed.
+[15:13:37 INF] 0 messages about to be pushed.
+[15:13:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:13:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:13:38 INF] Received HTTP response headers after 2.3449ms - 200
+[15:13:38 INF] End processing HTTP request after 3.0445ms - 200
+[15:13:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:13:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:13:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:13:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:13:38 INF] Received HTTP response headers after 2.028ms - 200
+[15:13:38 INF] End processing HTTP request after 2.9155ms - 200
+[15:13:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:13:38 DBG] FetchRegistryDelta returned: OK
+[15:13:38 DBG] FetchRegistry succeeded
+[15:13:38 INF] 0 messages about to be pushed.
+[15:13:39 INF] 0 messages about to be pushed.
+[15:13:40 INF] 0 messages about to be pushed.
+[15:13:41 INF] 0 messages about to be pushed.
+[15:13:42 INF] 0 messages about to be pushed.
+[15:13:43 INF] 0 messages about to be pushed.
+[15:13:44 INF] 0 messages about to be pushed.
+[15:13:45 INF] 0 messages about to be pushed.
+[15:13:46 INF] 0 messages about to be pushed.
+[15:13:47 INF] 0 messages about to be pushed.
+[15:13:48 INF] 0 messages about to be pushed.
+[15:13:49 INF] 0 messages about to be pushed.
+[15:13:50 INF] 0 messages about to be pushed.
+[15:13:51 INF] 0 messages about to be pushed.
+[15:13:52 INF] 0 messages about to be pushed.
+[15:13:53 INF] 0 messages about to be pushed.
+[15:13:54 INF] 0 messages about to be pushed.
+[15:13:55 INF] 0 messages about to be pushed.
+[15:13:56 INF] 0 messages about to be pushed.
+[15:13:57 INF] 0 messages about to be pushed.
+[15:13:58 INF] 0 messages about to be pushed.
+[15:13:59 INF] 0 messages about to be pushed.
+[15:14:00 INF] 0 messages about to be pushed.
+[15:14:01 INF] 0 messages about to be pushed.
+[15:14:02 INF] 0 messages about to be pushed.
+[15:14:03 INF] 0 messages about to be pushed.
+[15:14:04 INF] 0 messages about to be pushed.
+[15:14:05 INF] 0 messages about to be pushed.
+[15:14:06 INF] 0 messages about to be pushed.
+[15:14:07 INF] 0 messages about to be pushed.
+[15:14:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:14:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:14:08 INF] Received HTTP response headers after 3.2238ms - 200
+[15:14:08 INF] End processing HTTP request after 5.5289ms - 200
+[15:14:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:14:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:14:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:14:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:14:08 INF] Received HTTP response headers after 2.2154ms - 200
+[15:14:08 INF] End processing HTTP request after 3.9056ms - 200
+[15:14:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:14:08 DBG] FetchRegistryDelta returned: OK
+[15:14:08 DBG] FetchRegistry succeeded
+[15:14:08 INF] 0 messages about to be pushed.
+[15:14:09 INF] 0 messages about to be pushed.
+[15:14:10 INF] 0 messages about to be pushed.
+[15:14:11 INF] 0 messages about to be pushed.
+[15:14:12 INF] 0 messages about to be pushed.
+[15:14:13 INF] 0 messages about to be pushed.
+[15:14:14 INF] 0 messages about to be pushed.
+[15:14:15 INF] 0 messages about to be pushed.
+[15:14:16 INF] 0 messages about to be pushed.
+[15:14:17 INF] 0 messages about to be pushed.
+[15:14:18 INF] 0 messages about to be pushed.
+[15:14:19 INF] 0 messages about to be pushed.
+[15:14:20 INF] 0 messages about to be pushed.
+[15:14:21 INF] 0 messages about to be pushed.
+[15:14:22 INF] 0 messages about to be pushed.
+[15:14:23 INF] 0 messages about to be pushed.
+[15:14:24 INF] 0 messages about to be pushed.
+[15:14:25 INF] 0 messages about to be pushed.
+[15:14:26 INF] 0 messages about to be pushed.
+[15:14:27 INF] 0 messages about to be pushed.
+[15:14:28 INF] 0 messages about to be pushed.
+[15:14:29 INF] 0 messages about to be pushed.
+[15:14:30 INF] 0 messages about to be pushed.
+[15:14:31 INF] 0 messages about to be pushed.
+[15:14:32 INF] 0 messages about to be pushed.
+[15:14:33 INF] 0 messages about to be pushed.
+[15:14:34 INF] 0 messages about to be pushed.
+[15:14:35 INF] 0 messages about to be pushed.
+[15:14:36 INF] 0 messages about to be pushed.
+[15:14:37 INF] 0 messages about to be pushed.
+[15:14:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:14:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:14:38 INF] Received HTTP response headers after 3.7537ms - 200
+[15:14:38 INF] End processing HTTP request after 8.0283ms - 200
+[15:14:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:14:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:14:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:14:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:14:38 INF] Received HTTP response headers after 3.3244ms - 200
+[15:14:38 INF] End processing HTTP request after 5.5113ms - 200
+[15:14:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:14:38 DBG] FetchRegistryDelta returned: OK
+[15:14:38 DBG] FetchRegistry succeeded
+[15:14:38 INF] 0 messages about to be pushed.
+[15:14:39 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json; charset=utf-8 324
+[15:14:39 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:14:39 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:14:39 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:14:39 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:14:39 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 15.4909ms
+[15:14:39 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:14:39 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 20.5001ms
+[15:14:39 INF] 0 messages about to be pushed.
+[15:14:40 INF] 0 messages about to be pushed.
+[15:14:41 INF] 0 messages about to be pushed.
+[15:14:42 INF] 0 messages about to be pushed.
+[15:14:43 INF] 0 messages about to be pushed.
+[15:14:44 INF] 0 messages about to be pushed.
+[15:14:45 INF] 0 messages about to be pushed.
+[15:14:46 INF] 0 messages about to be pushed.
+[15:14:47 INF] 0 messages about to be pushed.
+[15:14:48 INF] 0 messages about to be pushed.
+[15:14:49 INF] 0 messages about to be pushed.
+[15:14:50 INF] 0 messages about to be pushed.
+[15:14:51 INF] 0 messages about to be pushed.
+[15:14:52 INF] 0 messages about to be pushed.
+[15:14:53 INF] 0 messages about to be pushed.
+[15:14:54 INF] 0 messages about to be pushed.
+[15:14:55 INF] 0 messages about to be pushed.
+[15:14:56 INF] 0 messages about to be pushed.
+[15:14:57 INF] 0 messages about to be pushed.
+[15:14:58 INF] 0 messages about to be pushed.
+[15:14:59 INF] 0 messages about to be pushed.
+[15:15:00 INF] 0 messages about to be pushed.
+[15:15:01 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Policy - application/json; charset=utf-8 203
+[15:15:01 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:15:01 INF] Route matched with {action = "Post", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreatePolicyCommand) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:15:01 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreatePolicyResult'.
+[15:15:01 INF] Executed action PolicyService.Controllers.PolicyController.Post (PolicyService) in 14.5812ms
+[15:15:01 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:15:01 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Policy - 200 null application/json; charset=utf-8 16.4031ms
+[15:15:01 INF] Request starting HTTP/1.1 GET http://localhost:5050/api/Policy/0cb0e0c6-3757-4452-a535-42c6c714cf54 - null null
+[15:15:01 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:15:01 INF] Route matched with {action = "Get", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.String) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:15:01 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Queries.GetPolicyDetailsQueryResult'.
+[15:15:01 INF] Executed action PolicyService.Controllers.PolicyController.Get (PolicyService) in 7.304ms
+[15:15:01 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:15:01 INF] Request finished HTTP/1.1 GET http://localhost:5050/api/Policy/0cb0e0c6-3757-4452-a535-42c6c714cf54 - 200 null application/json; charset=utf-8 11.4405ms
+[15:15:01 INF] 1 messages about to be pushed.
+[15:15:01 INF] Successfully pushed message
+[15:15:02 INF] 0 messages about to be pushed.
+[15:15:03 INF] 0 messages about to be pushed.
+[15:15:04 INF] 0 messages about to be pushed.
+[15:15:05 INF] 0 messages about to be pushed.
+[15:15:06 INF] 0 messages about to be pushed.
+[15:15:07 INF] 0 messages about to be pushed.
+[15:15:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:15:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:15:08 INF] Received HTTP response headers after 3.3276ms - 200
+[15:15:08 INF] End processing HTTP request after 4.7582ms - 200
+[15:15:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:15:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:15:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:15:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:15:08 INF] Received HTTP response headers after 1.4351ms - 200
+[15:15:08 INF] End processing HTTP request after 2.7924ms - 200
+[15:15:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:15:08 DBG] FetchRegistryDelta returned: OK
+[15:15:08 DBG] FetchRegistry succeeded
+[15:15:08 INF] 0 messages about to be pushed.
+[15:15:09 INF] 0 messages about to be pushed.
+[15:15:10 INF] 0 messages about to be pushed.
+[15:15:11 INF] 0 messages about to be pushed.
+[15:15:12 INF] 0 messages about to be pushed.
+[15:15:13 INF] 0 messages about to be pushed.
+[15:15:14 INF] 0 messages about to be pushed.
+[15:15:15 INF] 0 messages about to be pushed.
+[15:15:16 INF] 0 messages about to be pushed.
+[15:15:17 INF] 0 messages about to be pushed.
+[15:15:18 INF] 0 messages about to be pushed.
+[15:15:19 INF] 0 messages about to be pushed.
+[15:15:20 INF] 0 messages about to be pushed.
+[15:15:21 INF] 0 messages about to be pushed.
+[15:15:22 INF] 0 messages about to be pushed.
+[15:15:23 INF] 0 messages about to be pushed.
+[15:15:24 INF] 0 messages about to be pushed.
+[15:15:25 INF] 0 messages about to be pushed.
+[15:15:26 INF] 0 messages about to be pushed.
+[15:15:27 INF] 0 messages about to be pushed.
+[15:15:28 INF] 0 messages about to be pushed.
+[15:15:29 INF] 0 messages about to be pushed.
+[15:15:30 INF] 0 messages about to be pushed.
+[15:15:31 INF] 0 messages about to be pushed.
+[15:15:32 INF] 0 messages about to be pushed.
+[15:15:33 INF] 0 messages about to be pushed.
+[15:15:34 INF] 0 messages about to be pushed.
+[15:15:35 INF] 0 messages about to be pushed.
+[15:15:36 INF] 0 messages about to be pushed.
+[15:15:37 INF] 0 messages about to be pushed.
+[15:15:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:15:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:15:38 INF] Received HTTP response headers after 2.3662ms - 200
+[15:15:38 INF] End processing HTTP request after 3.2522ms - 200
+[15:15:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:15:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:15:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:15:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:15:38 INF] Received HTTP response headers after 2.4913ms - 200
+[15:15:38 INF] End processing HTTP request after 3.294ms - 200
+[15:15:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:15:38 DBG] FetchRegistryDelta returned: OK
+[15:15:38 DBG] FetchRegistry succeeded
+[15:15:38 INF] 0 messages about to be pushed.
+[15:15:39 INF] 0 messages about to be pushed.
+[15:15:40 INF] 0 messages about to be pushed.
+[15:15:41 INF] 0 messages about to be pushed.
+[15:15:42 INF] 0 messages about to be pushed.
+[15:15:43 INF] 0 messages about to be pushed.
+[15:15:44 INF] 0 messages about to be pushed.
+[15:15:45 INF] 0 messages about to be pushed.
+[15:15:46 INF] 0 messages about to be pushed.
+[15:15:47 INF] 0 messages about to be pushed.
+[15:15:48 INF] 0 messages about to be pushed.
+[15:15:49 INF] 0 messages about to be pushed.
+[15:15:50 INF] 0 messages about to be pushed.
+[15:15:51 INF] 0 messages about to be pushed.
+[15:15:52 INF] 0 messages about to be pushed.
+[15:15:53 INF] 0 messages about to be pushed.
+[15:15:54 INF] 0 messages about to be pushed.
+[15:15:55 INF] 0 messages about to be pushed.
+[15:15:56 INF] 0 messages about to be pushed.
+[15:15:57 INF] 0 messages about to be pushed.
+[15:15:58 INF] 0 messages about to be pushed.
+[15:15:59 INF] 0 messages about to be pushed.
+[15:16:00 INF] 0 messages about to be pushed.
+[15:16:01 INF] 0 messages about to be pushed.
+[15:16:02 INF] 0 messages about to be pushed.
+[15:16:03 INF] 0 messages about to be pushed.
+[15:16:04 INF] 0 messages about to be pushed.
+[15:16:05 INF] 0 messages about to be pushed.
+[15:16:06 INF] 0 messages about to be pushed.
+[15:16:07 INF] 0 messages about to be pushed.
+[15:16:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:16:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:16:08 INF] Received HTTP response headers after 4.1897ms - 200
+[15:16:08 INF] End processing HTTP request after 5.1568ms - 200
+[15:16:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:16:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:16:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:16:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:16:08 INF] Received HTTP response headers after 2.4857ms - 200
+[15:16:08 INF] End processing HTTP request after 3.4962ms - 200
+[15:16:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:16:08 DBG] FetchRegistryDelta returned: OK
+[15:16:08 DBG] FetchRegistry succeeded
+[15:16:08 INF] 0 messages about to be pushed.
+[15:16:09 INF] 0 messages about to be pushed.
+[15:16:10 INF] 0 messages about to be pushed.
+[15:16:11 INF] 0 messages about to be pushed.
+[15:16:12 INF] 0 messages about to be pushed.
+[15:16:13 INF] 0 messages about to be pushed.
+[15:16:14 INF] 0 messages about to be pushed.
+[15:16:15 INF] 0 messages about to be pushed.
+[15:16:16 INF] 0 messages about to be pushed.
+[15:16:17 INF] 0 messages about to be pushed.
+[15:16:18 INF] 0 messages about to be pushed.
+[15:16:19 INF] 0 messages about to be pushed.
+[15:16:20 INF] 0 messages about to be pushed.
+[15:16:21 INF] 0 messages about to be pushed.
+[15:16:22 INF] 0 messages about to be pushed.
+[15:16:23 INF] 0 messages about to be pushed.
+[15:16:24 INF] 0 messages about to be pushed.
+[15:16:25 INF] 0 messages about to be pushed.
+[15:16:26 INF] 0 messages about to be pushed.
+[15:16:27 INF] 0 messages about to be pushed.
+[15:16:28 INF] 0 messages about to be pushed.
+[15:16:29 INF] 0 messages about to be pushed.
+[15:16:30 INF] 0 messages about to be pushed.
+[15:16:31 INF] 0 messages about to be pushed.
+[15:16:32 INF] 0 messages about to be pushed.
+[15:16:33 INF] 0 messages about to be pushed.
+[15:16:34 INF] 0 messages about to be pushed.
+[15:16:35 INF] 0 messages about to be pushed.
+[15:16:36 INF] 0 messages about to be pushed.
+[15:16:37 INF] 0 messages about to be pushed.
+[15:16:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:16:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:16:38 INF] Received HTTP response headers after 4.4966ms - 200
+[15:16:38 INF] End processing HTTP request after 5.5084ms - 200
+[15:16:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:16:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:16:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:16:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:16:38 INF] Received HTTP response headers after 1.6478ms - 200
+[15:16:38 INF] End processing HTTP request after 2.577ms - 200
+[15:16:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:16:38 DBG] FetchRegistryDelta returned: OK
+[15:16:38 DBG] FetchRegistry succeeded
+[15:16:38 INF] 0 messages about to be pushed.
+[15:16:39 INF] 0 messages about to be pushed.
+[15:16:40 INF] 0 messages about to be pushed.
+[15:16:41 INF] 0 messages about to be pushed.
+[15:16:42 INF] 0 messages about to be pushed.
+[15:16:43 INF] 0 messages about to be pushed.
+[15:16:44 INF] 0 messages about to be pushed.
+[15:16:45 INF] 0 messages about to be pushed.
+[15:16:46 INF] 0 messages about to be pushed.
+[15:16:47 INF] 0 messages about to be pushed.
+[15:16:48 INF] 0 messages about to be pushed.
+[15:16:49 INF] 0 messages about to be pushed.
+[15:16:50 INF] 0 messages about to be pushed.
+[15:16:51 INF] 0 messages about to be pushed.
+[15:16:52 INF] 0 messages about to be pushed.
+[15:16:53 INF] 0 messages about to be pushed.
+[15:16:54 INF] 0 messages about to be pushed.
+[15:16:55 INF] 0 messages about to be pushed.
+[15:16:56 INF] 0 messages about to be pushed.
+[15:16:57 INF] 0 messages about to be pushed.
+[15:16:58 INF] 0 messages about to be pushed.
+[15:16:59 INF] 0 messages about to be pushed.
+[15:17:00 INF] 0 messages about to be pushed.
+[15:17:01 INF] 0 messages about to be pushed.
+[15:17:02 INF] 0 messages about to be pushed.
+[15:17:03 INF] 0 messages about to be pushed.
+[15:17:04 INF] 0 messages about to be pushed.
+[15:17:05 INF] 0 messages about to be pushed.
+[15:17:06 INF] 0 messages about to be pushed.
+[15:17:07 INF] 0 messages about to be pushed.
+[15:17:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:17:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:17:08 INF] Received HTTP response headers after 3.1573ms - 200
+[15:17:08 INF] End processing HTTP request after 4.2661ms - 200
+[15:17:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:17:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:17:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:17:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:17:08 INF] Received HTTP response headers after 1.7981ms - 200
+[15:17:08 INF] End processing HTTP request after 2.4324ms - 200
+[15:17:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=POLICYSEARCHSERVICE,Instances=Instance[InstanceId=localhost:PolicySearchService:5065,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5065,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PolicySearchService,SecureVipAddress=PolicySearchService,ActionType=ADDED],]], retry: 0
+[15:17:08 DBG] FetchRegistryDelta returned: OK
+[15:17:08 DBG] FetchRegistry succeeded
+[15:17:08 INF] 0 messages about to be pushed.
+[15:17:09 INF] 0 messages about to be pushed.
+[15:17:10 INF] 0 messages about to be pushed.
+[15:17:11 INF] 0 messages about to be pushed.
+[15:17:12 INF] 0 messages about to be pushed.
+[15:17:13 INF] 0 messages about to be pushed.
+[15:17:14 INF] 0 messages about to be pushed.
+[15:17:15 INF] 0 messages about to be pushed.
+[15:17:16 INF] 0 messages about to be pushed.
+[15:17:17 INF] 0 messages about to be pushed.
+[15:17:18 INF] 0 messages about to be pushed.
+[15:17:19 INF] 0 messages about to be pushed.
+[15:17:20 INF] 0 messages about to be pushed.
+[15:17:21 INF] 0 messages about to be pushed.
+[15:17:22 INF] 0 messages about to be pushed.
+[15:17:23 INF] 0 messages about to be pushed.
+[15:17:24 INF] 0 messages about to be pushed.
+[15:17:25 INF] 0 messages about to be pushed.
+[15:17:26 INF] 0 messages about to be pushed.
+[15:17:27 INF] 0 messages about to be pushed.
+[15:17:28 INF] 0 messages about to be pushed.
+[15:17:29 INF] 0 messages about to be pushed.
+[15:17:30 INF] 0 messages about to be pushed.
+[15:17:31 INF] 0 messages about to be pushed.
+[15:17:32 INF] 0 messages about to be pushed.
+[15:17:33 INF] 0 messages about to be pushed.
+[15:17:34 INF] 0 messages about to be pushed.
+[15:17:35 INF] 0 messages about to be pushed.
+[15:17:36 INF] 0 messages about to be pushed.
+[15:17:37 INF] 0 messages about to be pushed.
+[15:17:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:17:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:17:38 INF] Received HTTP response headers after 1.7651ms - 200
+[15:17:38 INF] End processing HTTP request after 2.3124ms - 200
+[15:17:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:17:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:17:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:17:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:17:38 INF] Received HTTP response headers after 1.837ms - 200
+[15:17:38 INF] End processing HTTP request after 2.3476ms - 200
+[15:17:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:17:38 DBG] FetchRegistryDelta returned: OK
+[15:17:38 DBG] FetchRegistry succeeded
+[15:17:38 INF] 0 messages about to be pushed.
+[15:17:39 INF] 0 messages about to be pushed.
+[15:17:40 INF] 0 messages about to be pushed.
+[15:17:41 INF] 0 messages about to be pushed.
+[15:17:42 INF] 0 messages about to be pushed.
+[15:17:43 INF] 0 messages about to be pushed.
+[15:17:44 INF] 0 messages about to be pushed.
+[15:17:45 INF] 0 messages about to be pushed.
+[15:17:46 INF] 0 messages about to be pushed.
+[15:17:47 INF] 0 messages about to be pushed.
+[15:17:48 INF] 0 messages about to be pushed.
+[15:17:49 INF] 0 messages about to be pushed.
+[15:17:50 INF] 0 messages about to be pushed.
+[15:17:51 INF] 0 messages about to be pushed.
+[15:17:52 INF] 0 messages about to be pushed.
+[15:17:53 INF] 0 messages about to be pushed.
+[15:17:54 INF] 0 messages about to be pushed.
+[15:17:55 INF] 0 messages about to be pushed.
+[15:17:56 INF] 0 messages about to be pushed.
+[15:17:57 INF] 0 messages about to be pushed.
+[15:17:58 INF] 0 messages about to be pushed.
+[15:17:59 INF] 0 messages about to be pushed.
+[15:18:00 INF] 0 messages about to be pushed.
+[15:18:01 INF] 0 messages about to be pushed.
+[15:18:02 INF] 0 messages about to be pushed.
+[15:18:03 INF] 0 messages about to be pushed.
+[15:18:04 INF] 0 messages about to be pushed.
+[15:18:05 INF] 0 messages about to be pushed.
+[15:18:06 INF] 0 messages about to be pushed.
+[15:18:07 INF] 0 messages about to be pushed.
+[15:18:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:18:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:18:08 INF] Received HTTP response headers after 3.5817ms - 200
+[15:18:08 INF] End processing HTTP request after 7.396ms - 200
+[15:18:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:18:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:18:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:18:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:18:08 INF] Received HTTP response headers after 1.8876ms - 200
+[15:18:08 INF] End processing HTTP request after 3.6127ms - 200
+[15:18:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:18:08 DBG] FetchRegistryDelta returned: OK
+[15:18:08 DBG] FetchRegistry succeeded
+[15:18:08 INF] 0 messages about to be pushed.
+[15:18:09 INF] 0 messages about to be pushed.
+[15:18:10 INF] 0 messages about to be pushed.
+[15:18:11 INF] 0 messages about to be pushed.
+[15:18:12 INF] 0 messages about to be pushed.
+[15:18:13 INF] 0 messages about to be pushed.
+[15:18:14 INF] 0 messages about to be pushed.
+[15:18:15 INF] 0 messages about to be pushed.
+[15:18:16 INF] 0 messages about to be pushed.
+[15:18:17 INF] 0 messages about to be pushed.
+[15:18:18 INF] 0 messages about to be pushed.
+[15:18:19 INF] 0 messages about to be pushed.
+[15:18:20 INF] 0 messages about to be pushed.
+[15:18:21 INF] 0 messages about to be pushed.
+[15:18:22 INF] 0 messages about to be pushed.
+[15:18:23 INF] 0 messages about to be pushed.
+[15:18:24 INF] 0 messages about to be pushed.
+[15:18:25 INF] 0 messages about to be pushed.
+[15:18:26 INF] 0 messages about to be pushed.
+[15:18:27 INF] 0 messages about to be pushed.
+[15:18:28 INF] 0 messages about to be pushed.
+[15:18:29 INF] 0 messages about to be pushed.
+[15:18:30 INF] 0 messages about to be pushed.
+[15:18:31 INF] 0 messages about to be pushed.
+[15:18:32 INF] 0 messages about to be pushed.
+[15:18:33 INF] 0 messages about to be pushed.
+[15:18:34 INF] 0 messages about to be pushed.
+[15:18:35 INF] 0 messages about to be pushed.
+[15:18:36 INF] 0 messages about to be pushed.
+[15:18:37 INF] 0 messages about to be pushed.
+[15:18:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:18:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:18:38 INF] Received HTTP response headers after 2.3364ms - 200
+[15:18:38 INF] End processing HTTP request after 2.8424ms - 200
+[15:18:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:18:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:18:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:18:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:18:38 INF] Received HTTP response headers after 1.5791ms - 200
+[15:18:38 INF] End processing HTTP request after 2.1855ms - 200
+[15:18:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:18:38 DBG] FetchRegistryDelta returned: OK
+[15:18:38 DBG] FetchRegistry succeeded
+[15:18:38 INF] 0 messages about to be pushed.
+[15:18:39 INF] 0 messages about to be pushed.
+[15:18:40 INF] 0 messages about to be pushed.
+[15:18:41 INF] 0 messages about to be pushed.
+[15:18:42 INF] 0 messages about to be pushed.
+[15:18:43 INF] 0 messages about to be pushed.
+[15:18:44 INF] 0 messages about to be pushed.
+[15:18:45 INF] 0 messages about to be pushed.
+[15:18:46 INF] 0 messages about to be pushed.
+[15:18:47 INF] 0 messages about to be pushed.
+[15:18:48 INF] 0 messages about to be pushed.
+[15:18:49 INF] 0 messages about to be pushed.
+[15:18:50 INF] 0 messages about to be pushed.
+[15:18:51 INF] 0 messages about to be pushed.
+[15:18:52 INF] 0 messages about to be pushed.
+[15:18:53 INF] 0 messages about to be pushed.
+[15:18:54 INF] 0 messages about to be pushed.
+[15:18:55 INF] 0 messages about to be pushed.
+[15:18:56 INF] 0 messages about to be pushed.
+[15:18:57 INF] 0 messages about to be pushed.
+[15:18:58 INF] 0 messages about to be pushed.
+[15:18:59 INF] 0 messages about to be pushed.
+[15:19:00 INF] 0 messages about to be pushed.
+[15:19:01 INF] 0 messages about to be pushed.
+[15:19:02 INF] 0 messages about to be pushed.
+[15:19:03 INF] 0 messages about to be pushed.
+[15:19:04 INF] 0 messages about to be pushed.
+[15:19:05 INF] 0 messages about to be pushed.
+[15:19:06 INF] 0 messages about to be pushed.
+[15:19:07 INF] 0 messages about to be pushed.
+[15:19:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:19:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:19:08 INF] Received HTTP response headers after 4.0125ms - 200
+[15:19:08 INF] End processing HTTP request after 8.3404ms - 200
+[15:19:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:19:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:19:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:19:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:19:08 INF] Received HTTP response headers after 2.886ms - 200
+[15:19:08 INF] End processing HTTP request after 4.945ms - 200
+[15:19:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:19:08 DBG] FetchRegistryDelta returned: OK
+[15:19:08 DBG] FetchRegistry succeeded
+[15:19:08 INF] 0 messages about to be pushed.
+[15:19:09 INF] 0 messages about to be pushed.
+[15:19:10 INF] 0 messages about to be pushed.
+[15:19:11 INF] 0 messages about to be pushed.
+[15:19:12 INF] 0 messages about to be pushed.
+[15:19:13 INF] 0 messages about to be pushed.
+[15:19:14 INF] 0 messages about to be pushed.
+[15:19:15 INF] 0 messages about to be pushed.
+[15:19:16 INF] 0 messages about to be pushed.
+[15:19:17 INF] 0 messages about to be pushed.
+[15:19:18 INF] 0 messages about to be pushed.
+[15:19:19 INF] 0 messages about to be pushed.
+[15:19:20 INF] 0 messages about to be pushed.
+[15:19:21 INF] 0 messages about to be pushed.
+[15:19:22 INF] 0 messages about to be pushed.
+[15:19:23 INF] 0 messages about to be pushed.
+[15:19:24 INF] 0 messages about to be pushed.
+[15:19:25 INF] 0 messages about to be pushed.
+[15:19:26 INF] 0 messages about to be pushed.
+[15:19:27 INF] 0 messages about to be pushed.
+[15:19:28 INF] 0 messages about to be pushed.
+[15:19:29 INF] 0 messages about to be pushed.
+[15:19:30 INF] 0 messages about to be pushed.
+[15:19:31 INF] 0 messages about to be pushed.
+[15:19:32 INF] 0 messages about to be pushed.
+[15:19:33 INF] 0 messages about to be pushed.
+[15:19:34 INF] 0 messages about to be pushed.
+[15:19:35 INF] 0 messages about to be pushed.
+[15:19:36 INF] 0 messages about to be pushed.
+[15:19:37 INF] 0 messages about to be pushed.
+[15:19:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:19:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:19:38 INF] Received HTTP response headers after 1.7866ms - 200
+[15:19:38 INF] End processing HTTP request after 2.6839ms - 200
+[15:19:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:19:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:19:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:19:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:19:38 INF] Received HTTP response headers after 1.7732ms - 200
+[15:19:38 INF] End processing HTTP request after 2.6248ms - 200
+[15:19:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:19:38 DBG] FetchRegistryDelta returned: OK
+[15:19:38 DBG] FetchRegistry succeeded
+[15:19:38 INF] 0 messages about to be pushed.
+[15:19:39 INF] 0 messages about to be pushed.
+[15:19:40 INF] 0 messages about to be pushed.
+[15:19:41 INF] 0 messages about to be pushed.
+[15:19:42 INF] 0 messages about to be pushed.
+[15:19:43 INF] 0 messages about to be pushed.
+[15:19:44 INF] 0 messages about to be pushed.
+[15:19:45 INF] 0 messages about to be pushed.
+[15:19:46 INF] 0 messages about to be pushed.
+[15:19:47 INF] 0 messages about to be pushed.
+[15:19:48 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Offer - application/json; charset=utf-8 324
+[15:19:48 INF] Executing endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:19:48 INF] Route matched with {action = "Post", controller = "Offer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreateOfferCommand, System.String) on controller PolicyService.Controllers.OfferController (PolicyService).
+[15:19:48 DBG] GetInstances returning: Instance[InstanceId=localhost:PricingService:5147,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5147,IsSecurePortEnabled=False,SecurePort=443,VipAddress=PricingService,SecureVipAddress=PricingService,ActionType=ADDED]
+[15:19:48 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreateOfferResult'.
+[15:19:48 INF] Executed action PolicyService.Controllers.OfferController.Post (PolicyService) in 15.4528ms
+[15:19:48 INF] Executed endpoint 'PolicyService.Controllers.OfferController.Post (PolicyService)'
+[15:19:48 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Offer - 200 null application/json; charset=utf-8 17.6484ms
+[15:19:48 INF] 0 messages about to be pushed.
+[15:19:49 INF] 0 messages about to be pushed.
+[15:19:50 INF] 0 messages about to be pushed.
+[15:19:51 INF] 0 messages about to be pushed.
+[15:19:52 INF] 0 messages about to be pushed.
+[15:19:53 INF] 0 messages about to be pushed.
+[15:19:54 INF] 0 messages about to be pushed.
+[15:19:55 INF] 0 messages about to be pushed.
+[15:19:56 INF] 0 messages about to be pushed.
+[15:19:57 INF] 0 messages about to be pushed.
+[15:19:58 INF] 0 messages about to be pushed.
+[15:19:59 INF] 0 messages about to be pushed.
+[15:20:00 INF] 0 messages about to be pushed.
+[15:20:01 INF] Request starting HTTP/1.1 POST http://localhost:5050/api/Policy - application/json; charset=utf-8 202
+[15:20:01 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:20:01 INF] Route matched with {action = "Post", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(PolicyService.Api.Commands.CreatePolicyCommand) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:20:01 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Commands.CreatePolicyResult'.
+[15:20:01 INF] Executed action PolicyService.Controllers.PolicyController.Post (PolicyService) in 15.9117ms
+[15:20:01 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Post (PolicyService)'
+[15:20:01 INF] Request finished HTTP/1.1 POST http://localhost:5050/api/Policy - 200 null application/json; charset=utf-8 18.1994ms
+[15:20:01 INF] Request starting HTTP/1.1 GET http://localhost:5050/api/Policy/42471cff-daf1-4793-941e-e412e0f1ef5f - null null
+[15:20:01 INF] Executing endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:20:01 INF] Route matched with {action = "Get", controller = "Policy"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(System.String) on controller PolicyService.Controllers.PolicyController (PolicyService).
+[15:20:01 INF] Executing JsonResult, writing value of type 'PolicyService.Api.Queries.GetPolicyDetailsQueryResult'.
+[15:20:01 INF] Executed action PolicyService.Controllers.PolicyController.Get (PolicyService) in 8.6389ms
+[15:20:01 INF] Executed endpoint 'PolicyService.Controllers.PolicyController.Get (PolicyService)'
+[15:20:01 INF] Request finished HTTP/1.1 GET http://localhost:5050/api/Policy/42471cff-daf1-4793-941e-e412e0f1ef5f - 200 null application/json; charset=utf-8 11.4962ms
+[15:20:01 INF] 1 messages about to be pushed.
+[15:20:01 INF] Successfully pushed message
+[15:20:02 INF] 0 messages about to be pushed.
+[15:20:03 INF] 0 messages about to be pushed.
+[15:20:04 INF] 0 messages about to be pushed.
+[15:20:05 INF] 0 messages about to be pushed.
+[15:20:06 INF] 0 messages about to be pushed.
+[15:20:07 INF] 0 messages about to be pushed.
+[15:20:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:20:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:20:08 INF] Received HTTP response headers after 3.0804ms - 200
+[15:20:08 INF] End processing HTTP request after 4.5892ms - 200
+[15:20:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:20:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:20:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:20:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:20:08 INF] Received HTTP response headers after 4.5221ms - 200
+[15:20:08 INF] End processing HTTP request after 6.4476ms - 200
+[15:20:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:20:08 DBG] FetchRegistryDelta returned: OK
+[15:20:08 DBG] FetchRegistry succeeded
+[15:20:08 INF] 0 messages about to be pushed.
+[15:20:09 INF] 0 messages about to be pushed.
+[15:20:10 INF] 0 messages about to be pushed.
+[15:20:11 INF] 0 messages about to be pushed.
+[15:20:12 INF] 0 messages about to be pushed.
+[15:20:13 INF] 0 messages about to be pushed.
+[15:20:14 INF] 0 messages about to be pushed.
+[15:20:15 INF] 0 messages about to be pushed.
+[15:20:16 INF] 0 messages about to be pushed.
+[15:20:17 INF] 0 messages about to be pushed.
+[15:20:18 INF] 0 messages about to be pushed.
+[15:20:19 INF] 0 messages about to be pushed.
+[15:20:20 INF] 0 messages about to be pushed.
+[15:20:21 INF] 0 messages about to be pushed.
+[15:20:22 INF] 0 messages about to be pushed.
+[15:20:23 INF] 0 messages about to be pushed.
+[15:20:24 INF] 0 messages about to be pushed.
+[15:20:25 INF] 0 messages about to be pushed.
+[15:20:26 INF] 0 messages about to be pushed.
+[15:20:27 INF] 0 messages about to be pushed.
+[15:20:28 INF] 0 messages about to be pushed.
+[15:20:29 INF] 0 messages about to be pushed.
+[15:20:30 INF] 0 messages about to be pushed.
+[15:20:31 INF] 0 messages about to be pushed.
+[15:20:32 INF] 0 messages about to be pushed.
+[15:20:33 INF] 0 messages about to be pushed.
+[15:20:34 INF] 0 messages about to be pushed.
+[15:20:35 INF] 0 messages about to be pushed.
+[15:20:36 INF] 0 messages about to be pushed.
+[15:20:37 INF] 0 messages about to be pushed.
+[15:20:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:20:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:20:38 INF] Received HTTP response headers after 1.8748ms - 200
+[15:20:38 INF] End processing HTTP request after 2.8471ms - 200
+[15:20:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:20:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:20:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:20:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:20:38 INF] Received HTTP response headers after 1.4701ms - 200
+[15:20:38 INF] End processing HTTP request after 2.2768ms - 200
+[15:20:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:20:38 DBG] FetchRegistryDelta returned: OK
+[15:20:38 DBG] FetchRegistry succeeded
+[15:20:38 INF] 0 messages about to be pushed.
+[15:20:39 INF] 0 messages about to be pushed.
+[15:20:40 INF] 0 messages about to be pushed.
+[15:20:41 INF] 0 messages about to be pushed.
+[15:20:42 INF] 0 messages about to be pushed.
+[15:20:43 INF] 0 messages about to be pushed.
+[15:20:44 INF] 0 messages about to be pushed.
+[15:20:45 INF] 0 messages about to be pushed.
+[15:20:46 INF] 0 messages about to be pushed.
+[15:20:47 INF] 0 messages about to be pushed.
+[15:20:48 INF] 0 messages about to be pushed.
+[15:20:49 INF] 0 messages about to be pushed.
+[15:20:50 INF] 0 messages about to be pushed.
+[15:20:51 INF] 0 messages about to be pushed.
+[15:20:52 INF] 0 messages about to be pushed.
+[15:20:53 INF] 0 messages about to be pushed.
+[15:20:54 INF] 0 messages about to be pushed.
+[15:20:55 INF] 0 messages about to be pushed.
+[15:20:56 INF] 0 messages about to be pushed.
+[15:20:57 INF] 0 messages about to be pushed.
+[15:20:58 INF] 0 messages about to be pushed.
+[15:20:59 INF] 0 messages about to be pushed.
+[15:21:00 INF] 0 messages about to be pushed.
+[15:21:01 INF] 0 messages about to be pushed.
+[15:21:02 INF] 0 messages about to be pushed.
+[15:21:03 INF] 0 messages about to be pushed.
+[15:21:04 INF] 0 messages about to be pushed.
+[15:21:05 INF] 0 messages about to be pushed.
+[15:21:06 INF] 0 messages about to be pushed.
+[15:21:07 INF] 0 messages about to be pushed.
+[15:21:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:21:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:21:08 INF] Received HTTP response headers after 1.8897ms - 200
+[15:21:08 INF] End processing HTTP request after 2.6521ms - 200
+[15:21:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:21:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:21:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:21:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:21:08 INF] 0 messages about to be pushed.
+[15:21:08 INF] Received HTTP response headers after 2.114ms - 200
+[15:21:08 INF] End processing HTTP request after 2.7409ms - 200
+[15:21:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:21:08 DBG] FetchRegistryDelta returned: OK
+[15:21:08 DBG] FetchRegistry succeeded
+[15:21:09 INF] 0 messages about to be pushed.
+[15:21:10 INF] 0 messages about to be pushed.
+[15:21:11 INF] 0 messages about to be pushed.
+[15:21:12 INF] 0 messages about to be pushed.
+[15:21:13 INF] 0 messages about to be pushed.
+[15:21:14 INF] 0 messages about to be pushed.
+[15:21:15 INF] 0 messages about to be pushed.
+[15:21:16 INF] 0 messages about to be pushed.
+[15:21:17 INF] 0 messages about to be pushed.
+[15:21:18 INF] 0 messages about to be pushed.
+[15:21:19 INF] 0 messages about to be pushed.
+[15:21:20 INF] 0 messages about to be pushed.
+[15:21:21 INF] 0 messages about to be pushed.
+[15:21:22 INF] 0 messages about to be pushed.
+[15:21:23 INF] 0 messages about to be pushed.
+[15:21:24 INF] 0 messages about to be pushed.
+[15:21:25 INF] 0 messages about to be pushed.
+[15:21:26 INF] 0 messages about to be pushed.
+[15:21:27 INF] 0 messages about to be pushed.
+[15:21:28 INF] 0 messages about to be pushed.
+[15:21:29 INF] 0 messages about to be pushed.
+[15:21:30 INF] 0 messages about to be pushed.
+[15:21:31 INF] 0 messages about to be pushed.
+[15:21:32 INF] 0 messages about to be pushed.
+[15:21:33 INF] 0 messages about to be pushed.
+[15:21:34 INF] 0 messages about to be pushed.
+[15:21:35 INF] 0 messages about to be pushed.
+[15:21:36 INF] 0 messages about to be pushed.
+[15:21:37 INF] 0 messages about to be pushed.
+[15:21:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:21:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:21:38 INF] Received HTTP response headers after 3.4538ms - 200
+[15:21:38 INF] End processing HTTP request after 6.9329ms - 200
+[15:21:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:21:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:21:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:21:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:21:38 INF] Received HTTP response headers after 1.4536ms - 200
+[15:21:38 INF] End processing HTTP request after 2.3018ms - 200
+[15:21:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:21:38 DBG] FetchRegistryDelta returned: OK
+[15:21:38 DBG] FetchRegistry succeeded
+[15:21:38 INF] 0 messages about to be pushed.
+[15:21:39 INF] 0 messages about to be pushed.
+[15:21:40 INF] 0 messages about to be pushed.
+[15:21:41 INF] 0 messages about to be pushed.
+[15:21:42 INF] 0 messages about to be pushed.
+[15:21:43 INF] 0 messages about to be pushed.
+[15:21:44 INF] 0 messages about to be pushed.
+[15:21:45 INF] 0 messages about to be pushed.
+[15:21:46 INF] 0 messages about to be pushed.
+[15:21:47 INF] 0 messages about to be pushed.
+[15:21:48 INF] 0 messages about to be pushed.
+[15:21:49 INF] 0 messages about to be pushed.
+[15:21:50 INF] 0 messages about to be pushed.
+[15:21:51 INF] 0 messages about to be pushed.
+[15:21:52 INF] 0 messages about to be pushed.
+[15:21:53 INF] 0 messages about to be pushed.
+[15:21:54 INF] 0 messages about to be pushed.
+[15:21:55 INF] 0 messages about to be pushed.
+[15:21:56 INF] 0 messages about to be pushed.
+[15:21:57 INF] 0 messages about to be pushed.
+[15:21:58 INF] 0 messages about to be pushed.
+[15:21:59 INF] 0 messages about to be pushed.
+[15:22:00 INF] 0 messages about to be pushed.
+[15:22:01 INF] 0 messages about to be pushed.
+[15:22:02 INF] 0 messages about to be pushed.
+[15:22:03 INF] 0 messages about to be pushed.
+[15:22:04 INF] 0 messages about to be pushed.
+[15:22:05 INF] 0 messages about to be pushed.
+[15:22:06 INF] 0 messages about to be pushed.
+[15:22:07 INF] 0 messages about to be pushed.
+[15:22:08 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:22:08 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:22:08 INF] Received HTTP response headers after 1.689ms - 200
+[15:22:08 INF] End processing HTTP request after 7.0366ms - 200
+[15:22:08 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:22:08 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:22:08 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:22:08 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:22:08 INF] 0 messages about to be pushed.
+[15:22:08 INF] Received HTTP response headers after 1.0968ms - 200
+[15:22:08 INF] End processing HTTP request after 1.9683ms - 200
+[15:22:08 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:22:08 DBG] FetchRegistryDelta returned: OK
+[15:22:08 DBG] FetchRegistry succeeded
+[15:22:09 INF] 0 messages about to be pushed.
+[15:22:10 INF] 0 messages about to be pushed.
+[15:22:11 INF] 0 messages about to be pushed.
+[15:22:12 INF] 0 messages about to be pushed.
+[15:22:13 INF] 0 messages about to be pushed.
+[15:22:14 INF] 0 messages about to be pushed.
+[15:22:15 INF] 0 messages about to be pushed.
+[15:22:16 INF] 0 messages about to be pushed.
+[15:22:17 INF] 0 messages about to be pushed.
+[15:22:18 INF] 0 messages about to be pushed.
+[15:22:19 INF] 0 messages about to be pushed.
+[15:22:20 INF] 0 messages about to be pushed.
+[15:22:21 INF] 0 messages about to be pushed.
+[15:22:22 INF] 0 messages about to be pushed.
+[15:22:23 INF] 0 messages about to be pushed.
+[15:22:24 INF] 0 messages about to be pushed.
+[15:22:25 INF] 0 messages about to be pushed.
+[15:22:26 INF] 0 messages about to be pushed.
+[15:22:27 INF] 0 messages about to be pushed.
+[15:22:28 INF] 0 messages about to be pushed.
+[15:22:29 INF] 0 messages about to be pushed.
+[15:22:30 INF] 0 messages about to be pushed.
+[15:22:31 INF] 0 messages about to be pushed.
+[15:22:32 INF] 0 messages about to be pushed.
+[15:22:33 INF] 0 messages about to be pushed.
+[15:22:34 INF] 0 messages about to be pushed.
+[15:22:35 INF] 0 messages about to be pushed.
+[15:22:36 INF] 0 messages about to be pushed.
+[15:22:37 INF] 0 messages about to be pushed.
+[15:22:38 INF] Start processing HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:22:38 INF] Sending HTTP request PUT http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?*
+[15:22:38 INF] Received HTTP response headers after 3.7094ms - 200
+[15:22:38 INF] End processing HTTP request after 8.0546ms - 200
+[15:22:38 DBG] SendHeartbeatAsync http://localhost:8761/eureka/apps/POLICYSERVICE/localhost:PolicyService:5050?status=UP&lastDirtyTimestamp=1794124958755, status: OK, instanceInfo: null, retry: 0
+[15:22:38 DBG] Renew POLICYSERVICE/localhost:PolicyService:5050 returned: OK
+[15:22:38 INF] Start processing HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:22:38 INF] Sending HTTP request GET http://localhost:8761/eureka/apps/delta
+[15:22:38 INF] Received HTTP response headers after 1.2671ms - 200
+[15:22:38 INF] End processing HTTP request after 2.3047ms - 200
+[15:22:38 DBG] DoGetApplicationsAsync http://localhost:8761/eureka/apps/delta, status: OK, applications: Applications[Application[Name=DASHBOARDSERVICE,Instances=Instance[InstanceId=localhost:DashboardService:5035,HostName=localhost,IpAddr=172.27.48.1,Status=UP,IsUnsecurePortEnabled=True,Port=5035,IsSecurePortEnabled=False,SecurePort=443,VipAddress=DashboardService,SecureVipAddress=DashboardService,ActionType=ADDED],]], retry: 0
+[15:22:38 DBG] FetchRegistryDelta returned: OK
+[15:22:38 DBG] FetchRegistry succeeded
+[15:22:38 INF] 0 messages about to be pushed.

@@ -1,3 +1,6 @@
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 namespace ProductService.Api.Queries.Dtos;
 
 public class ProductDto
@@ -18,8 +21,10 @@ public class ProductCoverDto
     public decimal SumInsured { get; set; }
 }
 
+[JsonConverter(typeof(ProductQuestionDtoConverter))]
 public abstract class ProductQuestionDto
 {
+    public int Index { get; set; }
     public string QuestionCode { get; set; } = string.Empty;
     public string Text { get; set; } = string.Empty;
 }
@@ -37,4 +42,28 @@ public class ChoiceDto
 {
     public string Code { get; set; } = string.Empty;
     public string Label { get; set; } = string.Empty;
+}
+
+public sealed class ProductQuestionDtoConverter : JsonConverter
+{
+    public override bool CanConvert(Type objectType) => objectType == typeof(ProductQuestionDto);
+
+    public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+    {
+        var json = JObject.Load(reader);
+        ProductQuestionDto question = json.Value<string>("questionType") switch
+        {
+            "Choice" => new ChoiceQuestionDto(),
+            "Numeric" => new NumericQuestionDto(),
+            _ => throw new JsonSerializationException("Unsupported product question type.")
+        };
+
+        serializer.Populate(json.CreateReader(), question);
+        return question;
+    }
+
+    public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+    {
+        serializer.Serialize(writer, value);
+    }
 }
